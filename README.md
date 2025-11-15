@@ -104,9 +104,3 @@ Keeps the team in sync.
 Use **prefabs** or **separate scenes** so multiple people can work at once.
 
 ---
-
-If you want, I can also make:  
-⭐ A one-page “Unity + Git Quick Guide”  
-⭐ A PDF to share with your team  
-⭐ A VS Code keybinding cheat sheet  
-⭐ A Unity-friendly `.gitignore` template check  
