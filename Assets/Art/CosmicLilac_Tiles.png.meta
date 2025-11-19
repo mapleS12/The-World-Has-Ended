@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 83d18a1cff1c4a440936238edab7f6a5
+guid: 15de591250fb10e42af6ed7006764722
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8960791487953588401
-    second: Buildings_white_TileSet_0
-  - first:
-      213: 5584608833507194700
-    second: Buildings_white_TileSet_1
-  - first:
-      213: 4147578092917813308
-    second: Buildings_white_TileSet_2
+      213: 7082039976070679621
+    second: CosmicLilac_Tiles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,11 +113,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Buildings_white_TileSet_0
+      name: CosmicLilac_Tiles_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -134,1224 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4fae263e9fd4a380800000000000000
-      internalID: -8960791487953588401
+      spriteID: 54c0fc206d5784260800000000000000
+      internalID: 7082039976070679621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4774b24524808d40800000000000000
-      internalID: 5584608833507194700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c30fe8afc482f8930800000000000000
-      internalID: 4147578092917813308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d47a1b66816e85a459a5dda0e20a29d7
-      internalID: 886602150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_4
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4616c07a404f6b849ad1db744fc1c96b
-      internalID: -1507263407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_5
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33c79717b6d92424c8fb9f89d0d24975
-      internalID: -540308531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_6
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07775568f7f54f1449b172ad03245911
-      internalID: 805398299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_7
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77d5a67815afb794c98568e12bf78bc3
-      internalID: -1587659132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_8
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3cce763e716f194ca5efb6614955fdc
-      internalID: -2029224852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_9
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9afb97dbf4323814ead65f247e66cb6a
-      internalID: 664349675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_10
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d0324ab4aef0fe44b27a56ac5fc06bd
-      internalID: 940058817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_11
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebe2062289903b5498b6528c1a6a839f
-      internalID: -1255790654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02e80ea7684958847b6f36bda6fafae4
-      internalID: 508586607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_13
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21cae84a7963c2a4b964116437d1633f
-      internalID: -1750715607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_14
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b438fbc37032835429975e5d35db7d13
-      internalID: -1521794399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_15
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edf1228951aeb8f4db83d428592935f3
-      internalID: -1788194281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_16
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6353c826f4e806b4d9075380c54bf9b7
-      internalID: -2127087364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_17
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d91f6685a3fe404f96cb3f55b3eba3e
-      internalID: -512095489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_18
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e26488cb1641f074ca7e1382edf10ea4
-      internalID: -1614055195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_19
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 694ae4c58f831aa47ab24e058784938d
-      internalID: -664686323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_20
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7372f5ee684cf9245a1b7c8ec9bf641f
-      internalID: -1996923328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_21
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c834f47be5940147a2a98d33c7a9a9d
-      internalID: 1825262652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_22
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5794e54eb2bb4447a79d14860d9f623
-      internalID: 1174015577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_23
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93e290c007be0574fb8af78211d429c4
-      internalID: 1746858311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_24
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c742b04d41281e6408cbcf89feb2240b
-      internalID: 937949559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_25
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 926b74bbbffa5e64f86dcfd4b7f7d218
-      internalID: 247906238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_26
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98e4325c0f54aca4eb7626031f2bd590
-      internalID: 12893058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_27
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae6c0ce1769c95f4b85fb637a74b8017
-      internalID: 1551526712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_28
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: faaaf9fdc437bf147a701e1a8f37e20f
-      internalID: -769934964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_29
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb5a2807062f4ea40882ee35b51208f8
-      internalID: 84451600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_30
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0867f871a1ae5c74ea66bca94b7d06d3
-      internalID: 2017832440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_31
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02a86a5bb10a8764298cc3af7d80d504
-      internalID: 594620894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_32
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 956b4da425c2bae4fa332ffb9744c017
-      internalID: -362759667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_33
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51e34208d97bfb440a8fd2ad4e54b370
-      internalID: 902950376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_34
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c57dea808dfb9545ac6d5ff0c8982ed
-      internalID: -1859450426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_35
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbfd7903c6b70c94399fba2678d989b7
-      internalID: -1855118595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_36
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2039388f45eece4091810afd108bfa9
-      internalID: 819538566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_37
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b59e6a42746e21941ac0d10e52e61570
-      internalID: -994759008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_38
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90ce35b1e8762ab4c8d54db922318f21
-      internalID: 2051036981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_39
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a143c9a9a2347045bdc6a21b38e1775
-      internalID: 1294728187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_40
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b476c2fd3cae56c4996aace2e6b0381a
-      internalID: 348361007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_41
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d220be96986ba446b23f93aeed02dc7
-      internalID: 1832681099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_42
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7da9facd7fa024f48805966e31c49e5f
-      internalID: -1172829945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_43
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fcaf53b6e7ac804887c88ac71728f12
-      internalID: 1201254836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_44
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffbde20a7ddcac6489bf71651ba14853
-      internalID: 454102253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_45
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd619a3fad6946841a133091c5c8155f
-      internalID: -1848805198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_46
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 533f7684b278b244d947f301fb3eb13c
-      internalID: 837918908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_47
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34aab23770824954e8d664bac62e8e87
-      internalID: -518688646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_48
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a696c29114d937f409eae2863fcc917f
-      internalID: 1856679320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_49
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96df59262ac087540a12827cbc9c2b01
-      internalID: 1616934244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_50
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9955d87cc3223664580fc279dd6b9e55
-      internalID: -1013798275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_51
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 127c9d94a32c95142ac8a5300440d174
-      internalID: 1749688501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_52
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64fadce4238becc418d21b9201297adb
-      internalID: -1988187847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_53
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c2bddcac3708f54e8a7dd7dc3da2184
-      internalID: -1694586360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_54
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56836e1b0434b474ebd6705e9d66a261
-      internalID: -1096637330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_55
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3d36c88a0a65a546a3e65f9f3fe3011
-      internalID: -1925054504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buildings_white_TileSet_56
+      name: CosmicLilac_Tiles_1
       rect:
         serializedVersion: 2
         x: 16
@@ -1366,14 +150,58 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1210eef1f25dbe44c832421a7a12379a
-      internalID: -617115079
+      spriteID: 2487ef3d388dda54d9dbd75723af6586
+      internalID: 2033464842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_57
+      name: CosmicLilac_Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aced4d0f89bde7f40a936291cc4cbe32
+      internalID: -2130943034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8727cfebe9e1c49b84c2a5ae1689cb
+      internalID: 681663364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_4
       rect:
         serializedVersion: 2
         x: 64
@@ -1388,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c830c51c58cce6e43ab1618a183e0cf1
-      internalID: -463803089
+      spriteID: 1f8eb2a0f0845214988b32eeaa73c1d2
+      internalID: -960015475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_58
+      name: CosmicLilac_Tiles_5
       rect:
         serializedVersion: 2
         x: 80
@@ -1410,14 +238,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5f005f34d35ca84c9ac3974acd73d06
-      internalID: -1629180034
+      spriteID: 97bd63336c58c254f85cd7e057a49da2
+      internalID: 193358621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_59
+      name: CosmicLilac_Tiles_6
       rect:
         serializedVersion: 2
         x: 96
@@ -1432,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53bb21676813b0b44b6f6a5b54349360
-      internalID: 667659958
+      spriteID: 8b619783740dd554e9140d04c5c92cfc
+      internalID: 341884149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_60
+      name: CosmicLilac_Tiles_7
       rect:
         serializedVersion: 2
         x: 112
@@ -1454,14 +282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87d6784adfa911c4d9fc69625507f7b4
-      internalID: -210145575
+      spriteID: c8f8ab48b8327bd4b9f74058e5bf7ace
+      internalID: -1948323410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_61
+      name: CosmicLilac_Tiles_8
       rect:
         serializedVersion: 2
         x: 128
@@ -1476,14 +304,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c51d5e1554f2d04994307c8fd4c4406
-      internalID: -252453146
+      spriteID: ff86154c823288a48b03553ea49156f9
+      internalID: 1549316785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_62
+      name: CosmicLilac_Tiles_9
       rect:
         serializedVersion: 2
         x: 144
@@ -1498,14 +326,80 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c129f964b2d48e64a8dcbb5a0a600761
-      internalID: -1894708867
+      spriteID: 9fac177d384a8d444ad100b826922b3f
+      internalID: 613559328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_63
+      name: CosmicLilac_Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2737ad47cfd4404ab82c9f4508ba324
+      internalID: 724603283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca488e433eaeaf42b0e3b03f1eeee2b
+      internalID: -1036888656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efec97624f61a6749954b7af87cd431b
+      internalID: 1074347823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_13
       rect:
         serializedVersion: 2
         x: 0
@@ -1520,14 +414,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b60ea758a59c86478d749566e047cb4
-      internalID: 258057916
+      spriteID: 1501fd50c1e70d9478fe7b1afe1289f8
+      internalID: -1864407059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_64
+      name: CosmicLilac_Tiles_14
       rect:
         serializedVersion: 2
         x: 16
@@ -1542,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97dbdcda21eec8d4cbeded64db44b9eb
-      internalID: 1634577206
+      spriteID: 29096bf0cf0af934290d304cb6db29e6
+      internalID: 1412567543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_65
+      name: CosmicLilac_Tiles_15
       rect:
         serializedVersion: 2
         x: 32
@@ -1564,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c31471ef11bf814bb094c02c5a75520
-      internalID: 1930640709
+      spriteID: 2370549ccef3f3648b6cd5753f904142
+      internalID: -451370387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_66
+      name: CosmicLilac_Tiles_16
       rect:
         serializedVersion: 2
         x: 48
@@ -1586,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b26b98a70eabcba479acbccbecabd362
-      internalID: 1934505930
+      spriteID: d9bdc815cbf2b024d8077feaa024f129
+      internalID: 1885030038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_67
+      name: CosmicLilac_Tiles_17
       rect:
         serializedVersion: 2
         x: 64
@@ -1608,14 +502,124 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 474336bf56222464bb39babcf98864ca
-      internalID: -251054943
+      spriteID: 2ec9b229c9eb2bc48bb8c9b334e8758b
+      internalID: -511408291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_68
+      name: CosmicLilac_Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecde2caedb31c0049a64d659073c6fc2
+      internalID: -1974668706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a8744a4419e6e4287847ddbf54ebae
+      internalID: -543388118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c97b8f367224424db591ed267b24484
+      internalID: -1574396394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace998e5d6a9f4d488e716d76f7ee02e
+      internalID: -365529319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c8154555e0604498aef98642ca7988
+      internalID: 297343400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_23
       rect:
         serializedVersion: 2
         x: 160
@@ -1630,14 +634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e638a69e418fce746a1a93dbe263f660
-      internalID: 1002497570
+      spriteID: 828f111f365bb1f43985a507dd1189cd
+      internalID: 291943825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_69
+      name: CosmicLilac_Tiles_24
       rect:
         serializedVersion: 2
         x: 176
@@ -1652,14 +656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a0fee542aba08d4c81e905230e7b25b
-      internalID: -1094434603
+      spriteID: 27884ab234980d846bbcddca9af0d190
+      internalID: -1696665650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_70
+      name: CosmicLilac_Tiles_25
       rect:
         serializedVersion: 2
         x: 192
@@ -1674,14 +678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c998a2ab8b9b9af4ab2b5be0549ed798
-      internalID: 201665955
+      spriteID: 496f2938610f7b44e989a05a45d5d13b
+      internalID: -220063184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_71
+      name: CosmicLilac_Tiles_26
       rect:
         serializedVersion: 2
         x: 0
@@ -1696,14 +700,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d833cbe23a420534795e76d9ae2002ec
-      internalID: -598449285
+      spriteID: 5668ae90578f1fc44b2ca6a420bdd35f
+      internalID: -67926350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_72
+      name: CosmicLilac_Tiles_27
       rect:
         serializedVersion: 2
         x: 16
@@ -1718,14 +722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9749b42751a7cba4a9e701c9632013a1
-      internalID: -514276012
+      spriteID: 5b8b8121f0daab045a4832284f57aded
+      internalID: -639150509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_73
+      name: CosmicLilac_Tiles_28
       rect:
         serializedVersion: 2
         x: 32
@@ -1740,14 +744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7431977a4ac704c45be7b8ec133fffb3
-      internalID: 893040127
+      spriteID: 74a430708d5bcd143a345ee0f492695b
+      internalID: -661962053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_74
+      name: CosmicLilac_Tiles_29
       rect:
         serializedVersion: 2
         x: 48
@@ -1762,14 +766,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10ed56377d43f7848b28c0b88592460b
-      internalID: -187365254
+      spriteID: 971f1c58ad90a504aa23c14c3274693e
+      internalID: -801970650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_75
+      name: CosmicLilac_Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf698aed37055c469890394ad9d20f9
+      internalID: 1593682177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60afa9fa22540fa4d95ab1c15bb7cc0b
+      internalID: 253960024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c3080d5dafd68478fffb1dbcfedc41
+      internalID: -1534571779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1654dabf71cddee438ee73933e03d049
+      internalID: -691684194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_34
       rect:
         serializedVersion: 2
         x: 128
@@ -1784,14 +876,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6709b91896459ea4788e2f0a8cea7640
-      internalID: -1742440332
+      spriteID: d5d1ba0c70dfdb84c8e49667da2f8441
+      internalID: -1234142449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_76
+      name: CosmicLilac_Tiles_35
       rect:
         serializedVersion: 2
         x: 144
@@ -1806,14 +898,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ab564520d1445b40b1fd87928deaf10
-      internalID: 56160668
+      spriteID: b9a61cf1ee0504d469fcdd591c6cdbb4
+      internalID: 1696970158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_77
+      name: CosmicLilac_Tiles_36
       rect:
         serializedVersion: 2
         x: 160
@@ -1828,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0eda9f07850bca439cff6c2fdeea798
-      internalID: -113582775
+      spriteID: 27d055aeec635b54cb5e6523d44e8dec
+      internalID: -488486235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_78
+      name: CosmicLilac_Tiles_37
       rect:
         serializedVersion: 2
         x: 176
@@ -1850,14 +942,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad4366cabfa39524097fb38a66b343b5
-      internalID: 506101991
+      spriteID: 92879354a33051d45b52d1b54a2339f3
+      internalID: -1167885446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_79
+      name: CosmicLilac_Tiles_38
       rect:
         serializedVersion: 2
         x: 192
@@ -1872,14 +964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01af00e21877dfd4498697862a15c743
-      internalID: -357588393
+      spriteID: 47628b2e0cdc3ab46b5e259ea2144706
+      internalID: 301118672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_80
+      name: CosmicLilac_Tiles_39
       rect:
         serializedVersion: 2
         x: 0
@@ -1894,14 +986,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 249716bcf36758c4c90e2a5f0500d7cf
-      internalID: -1301385271
+      spriteID: aa73a2b1c8141b144b51784d6df249f9
+      internalID: -1420844372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_81
+      name: CosmicLilac_Tiles_40
       rect:
         serializedVersion: 2
         x: 16
@@ -1916,14 +1008,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 316a32250c1aa584da273a72ca80f817
-      internalID: 229714306
+      spriteID: 2623ab4e77a7c0d4795a7eba762d8106
+      internalID: 945675841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_82
+      name: CosmicLilac_Tiles_41
       rect:
         serializedVersion: 2
         x: 32
@@ -1938,14 +1030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3197d8d7eaa7f17478ab1ef1bf9392bd
-      internalID: 151966945
+      spriteID: 1f89d7087c343f94e82fa638515a6def
+      internalID: 1810789785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_83
+      name: CosmicLilac_Tiles_42
       rect:
         serializedVersion: 2
         x: 48
@@ -1960,14 +1052,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fac9a44dd105ae4488485180d0259d0
-      internalID: -788365167
+      spriteID: 76c8d1d62c973854daac27dab17afcbe
+      internalID: -568002445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_84
+      name: CosmicLilac_Tiles_43
       rect:
         serializedVersion: 2
         x: 64
@@ -1982,14 +1074,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73fe68ede66326a4aa5b5480c340fd86
-      internalID: 963283187
+      spriteID: b7a4746bd7d95d740bf58c7e882709f7
+      internalID: -764500758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_85
+      name: CosmicLilac_Tiles_44
       rect:
         serializedVersion: 2
         x: 80
@@ -2004,14 +1096,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1ac7316aabd7bd40bda075822efa480
-      internalID: 667905391
+      spriteID: 9bda30e0714b12948a86eb18afbc7167
+      internalID: -2005358720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_86
+      name: CosmicLilac_Tiles_45
       rect:
         serializedVersion: 2
         x: 96
@@ -2026,14 +1118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80a1ed1a8aee90f4e8626af7ebcbff48
-      internalID: 464426824
+      spriteID: fb168697ef1703e40b0b378df2200352
+      internalID: -828050134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_87
+      name: CosmicLilac_Tiles_46
       rect:
         serializedVersion: 2
         x: 112
@@ -2048,14 +1140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16e237b03cf094749acc2495d5109ee1
-      internalID: -1066615378
+      spriteID: 19ba63ed56898f441add33c5d1c17679
+      internalID: 475500344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_88
+      name: CosmicLilac_Tiles_47
       rect:
         serializedVersion: 2
         x: 128
@@ -2070,14 +1162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4cb59bf3e7b4ef4f965ca617b366322
-      internalID: 1936505924
+      spriteID: bce7edb1d24c321419eb5a2eb3dfa108
+      internalID: 1104885076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_89
+      name: CosmicLilac_Tiles_48
       rect:
         serializedVersion: 2
         x: 144
@@ -2092,14 +1184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50061beb3460f784099c58da8cdda2ea
-      internalID: -1763057846
+      spriteID: 3f2f10fc039b20349a3105f9c3874f0d
+      internalID: -489170858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_90
+      name: CosmicLilac_Tiles_49
       rect:
         serializedVersion: 2
         x: 160
@@ -2114,14 +1206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 543cfacf1b4db3547a3e3ff1d652b026
-      internalID: 695450246
+      spriteID: 5094052a4df68b74abedb84d6c7d20fe
+      internalID: 413589609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_91
+      name: CosmicLilac_Tiles_50
       rect:
         serializedVersion: 2
         x: 176
@@ -2136,14 +1228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2f9537b963b0e04da14ae5e30c8641a
-      internalID: 1849308549
+      spriteID: 29321148f86c35f43aaae753bfc6c501
+      internalID: -1105925791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_92
+      name: CosmicLilac_Tiles_51
       rect:
         serializedVersion: 2
         x: 192
@@ -2158,14 +1250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caeaf9bae1db1e24b85096a04d79617f
-      internalID: 28547241
+      spriteID: f2aac27329ecdd342920795e666ee115
+      internalID: -356451835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_93
+      name: CosmicLilac_Tiles_52
       rect:
         serializedVersion: 2
         x: 0
@@ -2180,14 +1272,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c4a18701039239469a21290a78dbace
-      internalID: -345472291
+      spriteID: f21f648ae3f467c42802b6d53b8d205c
+      internalID: 791342028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_94
+      name: CosmicLilac_Tiles_53
       rect:
         serializedVersion: 2
         x: 16
@@ -2202,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c20b28e45ee8d3943bce2c3932685e31
-      internalID: -1195036771
+      spriteID: a0a68b249a161ab49b20a15289cb520b
+      internalID: -454734202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_95
+      name: CosmicLilac_Tiles_54
       rect:
         serializedVersion: 2
         x: 32
@@ -2224,14 +1316,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5241b6395603bb428c755218c594d10
-      internalID: -1343781471
+      spriteID: 1637a325558646b408d47dbd2ae433e8
+      internalID: -2023435046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_96
+      name: CosmicLilac_Tiles_55
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95afef6773510dc429d0dc701faaf17a
+      internalID: -2002689335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_56
       rect:
         serializedVersion: 2
         x: 64
@@ -2246,14 +1360,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3d2d4dc286d42d47a649dc96255618c
-      internalID: -1247310018
+      spriteID: cc3e973eac7b9f24eb37b9db60ea445b
+      internalID: 1167477414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_97
+      name: CosmicLilac_Tiles_57
       rect:
         serializedVersion: 2
         x: 80
@@ -2268,14 +1382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70988c0c8cffa384b9792f0b7528788b
-      internalID: -1216778837
+      spriteID: e854976491c6e654bb1cc15238a58c8d
+      internalID: -1915558149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_98
+      name: CosmicLilac_Tiles_58
       rect:
         serializedVersion: 2
         x: 96
@@ -2290,14 +1404,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81aa675c9301c3042a6b6c5e5f7852c1
-      internalID: -2011964138
+      spriteID: ca343a1305804de4b8e1d738c0261b81
+      internalID: -1497516409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_99
+      name: CosmicLilac_Tiles_59
       rect:
         serializedVersion: 2
         x: 112
@@ -2312,14 +1426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d627ddf1453d8c44588635ff98bdb959
-      internalID: 1965473797
+      spriteID: 618021bbbc4b14c4ca027e80370aff1d
+      internalID: -726452182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_100
+      name: CosmicLilac_Tiles_60
       rect:
         serializedVersion: 2
         x: 128
@@ -2334,14 +1448,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ec6aa650e1027a4098c0cc8e089b25c
-      internalID: 1594887390
+      spriteID: 71181c5737ee47a4ebd8ec3d7edab8b8
+      internalID: -1576756119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_101
+      name: CosmicLilac_Tiles_61
       rect:
         serializedVersion: 2
         x: 144
@@ -2356,14 +1470,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e9b2e200a5e49640b603fa38cf4bd31
-      internalID: 1983842183
+      spriteID: f6173d7596f1dac44838079b58884990
+      internalID: 397036299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_102
+      name: CosmicLilac_Tiles_62
       rect:
         serializedVersion: 2
         x: 160
@@ -2378,14 +1492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9157b51299e6ee49943d669809847c0
-      internalID: -2078870031
+      spriteID: 306d0e944b6d18146adc9e1ce372ad7b
+      internalID: 2007549731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_103
+      name: CosmicLilac_Tiles_63
       rect:
         serializedVersion: 2
         x: 176
@@ -2400,14 +1514,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0928e130a7cc0543b60e9c0360b467b
-      internalID: -940391181
+      spriteID: 5a1becc7c1fa05549b97a584dc0b8e01
+      internalID: -239609427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_104
+      name: CosmicLilac_Tiles_64
       rect:
         serializedVersion: 2
         x: 192
@@ -2422,14 +1536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff15f27fd0671ba4aac539dc2fb81354
-      internalID: -907278674
+      spriteID: 5ab5fc85b1f02c44b8d9a295ec0563e3
+      internalID: 1064067499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_105
+      name: CosmicLilac_Tiles_65
       rect:
         serializedVersion: 2
         x: 0
@@ -2444,14 +1558,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 390eb4754ec86354fb24636d0163b463
-      internalID: 922617400
+      spriteID: 5248c6f2a71337a41a94a7b24c30ec54
+      internalID: -305386334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_106
+      name: CosmicLilac_Tiles_66
       rect:
         serializedVersion: 2
         x: 16
@@ -2466,14 +1580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc26d8a4da7739845a42118b116eed9f
-      internalID: 1440134441
+      spriteID: 7894cc03adfe10e4a84ee3c9770d58a1
+      internalID: 951854636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_107
+      name: CosmicLilac_Tiles_67
       rect:
         serializedVersion: 2
         x: 32
@@ -2488,14 +1602,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aca31ec4b6c1e1b4b8661ca395164ee3
-      internalID: 500976607
+      spriteID: 6cd65f4a43a4e1041bd342ae1af320bf
+      internalID: 1121121862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_108
+      name: CosmicLilac_Tiles_68
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1211e406cf317d94eaa0c6b119b761e0
+      internalID: -1716455162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_69
       rect:
         serializedVersion: 2
         x: 64
@@ -2510,14 +1646,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 660535d78922ab940b73f91d45a63bbd
-      internalID: 1612776290
+      spriteID: 3de081434f1b89a479357170e36d49f0
+      internalID: 1165078286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_109
+      name: CosmicLilac_Tiles_70
       rect:
         serializedVersion: 2
         x: 80
@@ -2532,14 +1668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07147b86121cc7a4d820f4ea01056c0a
-      internalID: -1391303424
+      spriteID: 08d4349fbab4bb74999339e77d56ba57
+      internalID: 1133712233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_110
+      name: CosmicLilac_Tiles_71
       rect:
         serializedVersion: 2
         x: 96
@@ -2554,14 +1690,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8711917830455b44682cad1d75768988
-      internalID: -1378528430
+      spriteID: fc8dcda7e12ebab44835a6488fe701e7
+      internalID: 950011681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_111
+      name: CosmicLilac_Tiles_72
       rect:
         serializedVersion: 2
         x: 112
@@ -2576,14 +1712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc8506fad65037542b43e4a3a708fb69
-      internalID: -870922503
+      spriteID: 35cd707bfefd08643b98c5763546d0d0
+      internalID: -228459364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_112
+      name: CosmicLilac_Tiles_73
       rect:
         serializedVersion: 2
         x: 128
@@ -2598,14 +1734,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5114f73e9004594c89e064d1362cabc
-      internalID: -1168275140
+      spriteID: 1574bdd532d9e8e4083bbf078fe430e3
+      internalID: -1656410090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_113
+      name: CosmicLilac_Tiles_74
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d540fb7a1c3bb498a979a0c88cf7a4
+      internalID: -1482254270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_75
       rect:
         serializedVersion: 2
         x: 160
@@ -2620,14 +1778,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 973fe9d3dcd3a3c4f946b237d6ee0c2f
-      internalID: -2008497402
+      spriteID: 7bd05c94a9d70f444b6aa47c5912dae4
+      internalID: -2123853312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_114
+      name: CosmicLilac_Tiles_76
       rect:
         serializedVersion: 2
         x: 176
@@ -2642,14 +1800,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5895f28d245fa74da8e82ff057dc983
-      internalID: 1754773407
+      spriteID: edd458a526081094f89ac4f80f29f809
+      internalID: -1622784785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_115
+      name: CosmicLilac_Tiles_77
       rect:
         serializedVersion: 2
         x: 192
@@ -2664,14 +1822,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 932cf518e66cf3f4092ef7751c116846
-      internalID: -367841198
+      spriteID: 133c15b25580fce4ab81e78f96033ebb
+      internalID: -88419357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_116
+      name: CosmicLilac_Tiles_78
       rect:
         serializedVersion: 2
         x: 0
@@ -2686,14 +1844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ede57cc886f36b64a8a05dec66f46e29
-      internalID: 1242362954
+      spriteID: f7c21bdd54190564e9e7e608fc1129d9
+      internalID: 1269071087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_117
+      name: CosmicLilac_Tiles_79
       rect:
         serializedVersion: 2
         x: 16
@@ -2708,14 +1866,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22b80ddc0ff1fc9488616717a9cddd12
-      internalID: 1423935064
+      spriteID: 5e876581612aefd4aa8ffb0fc2127104
+      internalID: -2033371199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_118
+      name: CosmicLilac_Tiles_80
       rect:
         serializedVersion: 2
         x: 32
@@ -2730,14 +1888,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 171831013fadeea41951680262127bca
-      internalID: 505044765
+      spriteID: 9b7fa8a72a0ead44188cc09d99898ec6
+      internalID: -1089354421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_119
+      name: CosmicLilac_Tiles_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bfa3c36c6e1f049b5f40dace4b2869
+      internalID: 582094677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_82
       rect:
         serializedVersion: 2
         x: 64
@@ -2752,14 +1932,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d918c19079322b04a80c100a3dd3b11b
-      internalID: 1537815615
+      spriteID: e67bf85e70104764b9d15db0c0a2a194
+      internalID: 1058331522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_120
+      name: CosmicLilac_Tiles_83
       rect:
         serializedVersion: 2
         x: 80
@@ -2774,14 +1954,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba15db4beefd0ce438300b3a281521ee
-      internalID: -1612634124
+      spriteID: 78dbee5b703dedc4bb39250d824fa3e4
+      internalID: -276891773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_121
+      name: CosmicLilac_Tiles_84
       rect:
         serializedVersion: 2
         x: 96
@@ -2796,14 +1976,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a863df93e09745844919989613fdbc50
-      internalID: 1405309273
+      spriteID: 34bd437de615d514894b9ebfcfa4a50a
+      internalID: -1572522891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_122
+      name: CosmicLilac_Tiles_85
       rect:
         serializedVersion: 2
         x: 112
@@ -2818,14 +1998,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1d8458c353c6004a970ab640243cbdb
-      internalID: 1083926578
+      spriteID: f7eb946484a696043b17a411ca5a9de7
+      internalID: -1622335376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_123
+      name: CosmicLilac_Tiles_86
       rect:
         serializedVersion: 2
         x: 128
@@ -2840,14 +2020,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c46c6eaa0e94e214c84ac36294864726
-      internalID: 472395209
+      spriteID: 689bd43426020ca4aabff689ef5dc5c1
+      internalID: -1090631968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_124
+      name: CosmicLilac_Tiles_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c945f7c19b5aae9438c591ad8a8252c9
+      internalID: 1252878978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_88
       rect:
         serializedVersion: 2
         x: 160
@@ -2862,14 +2064,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76eca3fb6e8ddd94ab3ac0253eec113d
-      internalID: -808840252
+      spriteID: fee9e7dda32c44e41ab01329f4dad67d
+      internalID: -744093477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_125
+      name: CosmicLilac_Tiles_89
       rect:
         serializedVersion: 2
         x: 176
@@ -2884,14 +2086,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: babb7de9b8af2564e9c39457d2893a2e
-      internalID: 1134396783
+      spriteID: f090a579425293644bf88d586e5c5ff9
+      internalID: -693185627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_126
+      name: CosmicLilac_Tiles_90
       rect:
         serializedVersion: 2
         x: 192
@@ -2906,14 +2108,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9846be988cf06ec44894073e7402803d
-      internalID: 1488955454
+      spriteID: f897ca83ac38aaf42b13ce32f47158f3
+      internalID: 379685460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_127
+      name: CosmicLilac_Tiles_91
       rect:
         serializedVersion: 2
         x: 0
@@ -2928,14 +2130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2f0e2cdb49504149a553c300c7c645a
-      internalID: -1522691751
+      spriteID: 266189e1630c40840bee12b5ac0d5ccf
+      internalID: -102267850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_128
+      name: CosmicLilac_Tiles_92
       rect:
         serializedVersion: 2
         x: 16
@@ -2950,14 +2152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2659f5da3e937be4c964e2adb56aa945
-      internalID: 841297246
+      spriteID: e452eee49ff078d4eb574d04eb656334
+      internalID: -1946853657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_129
+      name: CosmicLilac_Tiles_93
       rect:
         serializedVersion: 2
         x: 32
@@ -2972,14 +2174,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f01b6f27540c65d409edd0efa297f019
-      internalID: -414108052
+      spriteID: ace99e01c97811f4eb1d07f57d98493b
+      internalID: -675060657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_130
+      name: CosmicLilac_Tiles_94
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bc4fb723242e64fa414e0f15358c19
+      internalID: -1677352305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_95
       rect:
         serializedVersion: 2
         x: 64
@@ -2994,14 +2218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a6d90dd0b1bcbc4992e879e2a6a5141
-      internalID: 919845448
+      spriteID: 436ff2d4160c25b4eb44a077f343e2de
+      internalID: -1615782772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_131
+      name: CosmicLilac_Tiles_96
       rect:
         serializedVersion: 2
         x: 80
@@ -3016,14 +2240,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acc84ccf62c326e4380d8d1199ac86e4
-      internalID: 1211941042
+      spriteID: 738ec75c464b3af418d0b8823405ee86
+      internalID: -1820264519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_132
+      name: CosmicLilac_Tiles_97
       rect:
         serializedVersion: 2
         x: 96
@@ -3038,14 +2262,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbead7aebdf8c55478368f0fb1c2eb98
-      internalID: 1370460332
+      spriteID: ff7a51caeeaded941a2fe5d74bb0570d
+      internalID: -664839092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_133
+      name: CosmicLilac_Tiles_98
       rect:
         serializedVersion: 2
         x: 112
@@ -3060,14 +2284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb0d668a2cc904440957cfbf2328caaa
-      internalID: -2112522724
+      spriteID: 5232994b6b1ca684ea669d44fb23c9cc
+      internalID: -2070982850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_134
+      name: CosmicLilac_Tiles_99
       rect:
         serializedVersion: 2
         x: 128
@@ -3082,14 +2306,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07325b069e379b445b1a680862aa9c03
-      internalID: 269364950
+      spriteID: 06f0689549ef5de428dd594fe81db9fe
+      internalID: -304906592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_135
+      name: CosmicLilac_Tiles_100
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dc0ae2b9ad7dd45942f4b462ef3fa4
+      internalID: 616133688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CosmicLilac_Tiles_101
       rect:
         serializedVersion: 2
         x: 160
@@ -3104,14 +2350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3933f2a9385201449df5a47fc9bb9fc
-      internalID: 1639650461
+      spriteID: d68d99bb635f1e84185fcd6a216e590f
+      internalID: 1238023064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_136
+      name: CosmicLilac_Tiles_102
       rect:
         serializedVersion: 2
         x: 176
@@ -3126,14 +2372,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1676c02bc277e04a999bac3a6aaa4d4
-      internalID: 2087601159
+      spriteID: a58f222d0fe0d8c43b74b6e472714340
+      internalID: 787217170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_white_TileSet_137
+      name: CosmicLilac_Tiles_103
       rect:
         serializedVersion: 2
         x: 192
@@ -3148,8 +2394,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bb242e87cebb8a48908905c0881da4c
-      internalID: 1929025043
+      spriteID: f376efa5f05d91f4e8542f7bae303ea0
+      internalID: 347832304
       vertices: []
       indices: 
       edges: []
@@ -3158,7 +2404,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 219104be96d37ce40b9ad18933f229bc
+    spriteID: 9050455f0e9e3074ab1f9b477d2df3b3
     internalID: 0
     vertices: []
     indices: 
@@ -3170,144 +2416,110 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Buildings_white_TileSet_0: -8960791487953588401
-      Buildings_white_TileSet_1: 5584608833507194700
-      Buildings_white_TileSet_10: 940058817
-      Buildings_white_TileSet_100: 1594887390
-      Buildings_white_TileSet_101: 1983842183
-      Buildings_white_TileSet_102: -2078870031
-      Buildings_white_TileSet_103: -940391181
-      Buildings_white_TileSet_104: -907278674
-      Buildings_white_TileSet_105: 922617400
-      Buildings_white_TileSet_106: 1440134441
-      Buildings_white_TileSet_107: 500976607
-      Buildings_white_TileSet_108: 1612776290
-      Buildings_white_TileSet_109: -1391303424
-      Buildings_white_TileSet_11: -1255790654
-      Buildings_white_TileSet_110: -1378528430
-      Buildings_white_TileSet_111: -870922503
-      Buildings_white_TileSet_112: -1168275140
-      Buildings_white_TileSet_113: -2008497402
-      Buildings_white_TileSet_114: 1754773407
-      Buildings_white_TileSet_115: -367841198
-      Buildings_white_TileSet_116: 1242362954
-      Buildings_white_TileSet_117: 1423935064
-      Buildings_white_TileSet_118: 505044765
-      Buildings_white_TileSet_119: 1537815615
-      Buildings_white_TileSet_12: 508586607
-      Buildings_white_TileSet_120: -1612634124
-      Buildings_white_TileSet_121: 1405309273
-      Buildings_white_TileSet_122: 1083926578
-      Buildings_white_TileSet_123: 472395209
-      Buildings_white_TileSet_124: -808840252
-      Buildings_white_TileSet_125: 1134396783
-      Buildings_white_TileSet_126: 1488955454
-      Buildings_white_TileSet_127: -1522691751
-      Buildings_white_TileSet_128: 841297246
-      Buildings_white_TileSet_129: -414108052
-      Buildings_white_TileSet_13: -1750715607
-      Buildings_white_TileSet_130: 919845448
-      Buildings_white_TileSet_131: 1211941042
-      Buildings_white_TileSet_132: 1370460332
-      Buildings_white_TileSet_133: -2112522724
-      Buildings_white_TileSet_134: 269364950
-      Buildings_white_TileSet_135: 1639650461
-      Buildings_white_TileSet_136: 2087601159
-      Buildings_white_TileSet_137: 1929025043
-      Buildings_white_TileSet_14: -1521794399
-      Buildings_white_TileSet_15: -1788194281
-      Buildings_white_TileSet_16: -2127087364
-      Buildings_white_TileSet_17: -512095489
-      Buildings_white_TileSet_18: -1614055195
-      Buildings_white_TileSet_19: -664686323
-      Buildings_white_TileSet_2: 4147578092917813308
-      Buildings_white_TileSet_20: -1996923328
-      Buildings_white_TileSet_21: 1825262652
-      Buildings_white_TileSet_22: 1174015577
-      Buildings_white_TileSet_23: 1746858311
-      Buildings_white_TileSet_24: 937949559
-      Buildings_white_TileSet_25: 247906238
-      Buildings_white_TileSet_26: 12893058
-      Buildings_white_TileSet_27: 1551526712
-      Buildings_white_TileSet_28: -769934964
-      Buildings_white_TileSet_29: 84451600
-      Buildings_white_TileSet_3: 886602150
-      Buildings_white_TileSet_30: 2017832440
-      Buildings_white_TileSet_31: 594620894
-      Buildings_white_TileSet_32: -362759667
-      Buildings_white_TileSet_33: 902950376
-      Buildings_white_TileSet_34: -1859450426
-      Buildings_white_TileSet_35: -1855118595
-      Buildings_white_TileSet_36: 819538566
-      Buildings_white_TileSet_37: -994759008
-      Buildings_white_TileSet_38: 2051036981
-      Buildings_white_TileSet_39: 1294728187
-      Buildings_white_TileSet_4: -1507263407
-      Buildings_white_TileSet_40: 348361007
-      Buildings_white_TileSet_41: 1832681099
-      Buildings_white_TileSet_42: -1172829945
-      Buildings_white_TileSet_43: 1201254836
-      Buildings_white_TileSet_44: 454102253
-      Buildings_white_TileSet_45: -1848805198
-      Buildings_white_TileSet_46: 837918908
-      Buildings_white_TileSet_47: -518688646
-      Buildings_white_TileSet_48: 1856679320
-      Buildings_white_TileSet_49: 1616934244
-      Buildings_white_TileSet_5: -540308531
-      Buildings_white_TileSet_50: -1013798275
-      Buildings_white_TileSet_51: 1749688501
-      Buildings_white_TileSet_52: -1988187847
-      Buildings_white_TileSet_53: -1694586360
-      Buildings_white_TileSet_54: -1096637330
-      Buildings_white_TileSet_55: -1925054504
-      Buildings_white_TileSet_56: -617115079
-      Buildings_white_TileSet_57: -463803089
-      Buildings_white_TileSet_58: -1629180034
-      Buildings_white_TileSet_59: 667659958
-      Buildings_white_TileSet_6: 805398299
-      Buildings_white_TileSet_60: -210145575
-      Buildings_white_TileSet_61: -252453146
-      Buildings_white_TileSet_62: -1894708867
-      Buildings_white_TileSet_63: 258057916
-      Buildings_white_TileSet_64: 1634577206
-      Buildings_white_TileSet_65: 1930640709
-      Buildings_white_TileSet_66: 1934505930
-      Buildings_white_TileSet_67: -251054943
-      Buildings_white_TileSet_68: 1002497570
-      Buildings_white_TileSet_69: -1094434603
-      Buildings_white_TileSet_7: -1587659132
-      Buildings_white_TileSet_70: 201665955
-      Buildings_white_TileSet_71: -598449285
-      Buildings_white_TileSet_72: -514276012
-      Buildings_white_TileSet_73: 893040127
-      Buildings_white_TileSet_74: -187365254
-      Buildings_white_TileSet_75: -1742440332
-      Buildings_white_TileSet_76: 56160668
-      Buildings_white_TileSet_77: -113582775
-      Buildings_white_TileSet_78: 506101991
-      Buildings_white_TileSet_79: -357588393
-      Buildings_white_TileSet_8: -2029224852
-      Buildings_white_TileSet_80: -1301385271
-      Buildings_white_TileSet_81: 229714306
-      Buildings_white_TileSet_82: 151966945
-      Buildings_white_TileSet_83: -788365167
-      Buildings_white_TileSet_84: 963283187
-      Buildings_white_TileSet_85: 667905391
-      Buildings_white_TileSet_86: 464426824
-      Buildings_white_TileSet_87: -1066615378
-      Buildings_white_TileSet_88: 1936505924
-      Buildings_white_TileSet_89: -1763057846
-      Buildings_white_TileSet_9: 664349675
-      Buildings_white_TileSet_90: 695450246
-      Buildings_white_TileSet_91: 1849308549
-      Buildings_white_TileSet_92: 28547241
-      Buildings_white_TileSet_93: -345472291
-      Buildings_white_TileSet_94: -1195036771
-      Buildings_white_TileSet_95: -1343781471
-      Buildings_white_TileSet_96: -1247310018
-      Buildings_white_TileSet_97: -1216778837
-      Buildings_white_TileSet_98: -2011964138
-      Buildings_white_TileSet_99: 1965473797
+      CosmicLilac_Tiles_0: 7082039976070679621
+      CosmicLilac_Tiles_1: 2033464842
+      CosmicLilac_Tiles_10: 724603283
+      CosmicLilac_Tiles_100: 616133688
+      CosmicLilac_Tiles_101: 1238023064
+      CosmicLilac_Tiles_102: 787217170
+      CosmicLilac_Tiles_103: 347832304
+      CosmicLilac_Tiles_11: -1036888656
+      CosmicLilac_Tiles_12: 1074347823
+      CosmicLilac_Tiles_13: -1864407059
+      CosmicLilac_Tiles_14: 1412567543
+      CosmicLilac_Tiles_15: -451370387
+      CosmicLilac_Tiles_16: 1885030038
+      CosmicLilac_Tiles_17: -511408291
+      CosmicLilac_Tiles_18: -1974668706
+      CosmicLilac_Tiles_19: -543388118
+      CosmicLilac_Tiles_2: -2130943034
+      CosmicLilac_Tiles_20: -1574396394
+      CosmicLilac_Tiles_21: -365529319
+      CosmicLilac_Tiles_22: 297343400
+      CosmicLilac_Tiles_23: 291943825
+      CosmicLilac_Tiles_24: -1696665650
+      CosmicLilac_Tiles_25: -220063184
+      CosmicLilac_Tiles_26: -67926350
+      CosmicLilac_Tiles_27: -639150509
+      CosmicLilac_Tiles_28: -661962053
+      CosmicLilac_Tiles_29: -801970650
+      CosmicLilac_Tiles_3: 681663364
+      CosmicLilac_Tiles_30: 1593682177
+      CosmicLilac_Tiles_31: 253960024
+      CosmicLilac_Tiles_32: -1534571779
+      CosmicLilac_Tiles_33: -691684194
+      CosmicLilac_Tiles_34: -1234142449
+      CosmicLilac_Tiles_35: 1696970158
+      CosmicLilac_Tiles_36: -488486235
+      CosmicLilac_Tiles_37: -1167885446
+      CosmicLilac_Tiles_38: 301118672
+      CosmicLilac_Tiles_39: -1420844372
+      CosmicLilac_Tiles_4: -960015475
+      CosmicLilac_Tiles_40: 945675841
+      CosmicLilac_Tiles_41: 1810789785
+      CosmicLilac_Tiles_42: -568002445
+      CosmicLilac_Tiles_43: -764500758
+      CosmicLilac_Tiles_44: -2005358720
+      CosmicLilac_Tiles_45: -828050134
+      CosmicLilac_Tiles_46: 475500344
+      CosmicLilac_Tiles_47: 1104885076
+      CosmicLilac_Tiles_48: -489170858
+      CosmicLilac_Tiles_49: 413589609
+      CosmicLilac_Tiles_5: 193358621
+      CosmicLilac_Tiles_50: -1105925791
+      CosmicLilac_Tiles_51: -356451835
+      CosmicLilac_Tiles_52: 791342028
+      CosmicLilac_Tiles_53: -454734202
+      CosmicLilac_Tiles_54: -2023435046
+      CosmicLilac_Tiles_55: -2002689335
+      CosmicLilac_Tiles_56: 1167477414
+      CosmicLilac_Tiles_57: -1915558149
+      CosmicLilac_Tiles_58: -1497516409
+      CosmicLilac_Tiles_59: -726452182
+      CosmicLilac_Tiles_6: 341884149
+      CosmicLilac_Tiles_60: -1576756119
+      CosmicLilac_Tiles_61: 397036299
+      CosmicLilac_Tiles_62: 2007549731
+      CosmicLilac_Tiles_63: -239609427
+      CosmicLilac_Tiles_64: 1064067499
+      CosmicLilac_Tiles_65: -305386334
+      CosmicLilac_Tiles_66: 951854636
+      CosmicLilac_Tiles_67: 1121121862
+      CosmicLilac_Tiles_68: -1716455162
+      CosmicLilac_Tiles_69: 1165078286
+      CosmicLilac_Tiles_7: -1948323410
+      CosmicLilac_Tiles_70: 1133712233
+      CosmicLilac_Tiles_71: 950011681
+      CosmicLilac_Tiles_72: -228459364
+      CosmicLilac_Tiles_73: -1656410090
+      CosmicLilac_Tiles_74: -1482254270
+      CosmicLilac_Tiles_75: -2123853312
+      CosmicLilac_Tiles_76: -1622784785
+      CosmicLilac_Tiles_77: -88419357
+      CosmicLilac_Tiles_78: 1269071087
+      CosmicLilac_Tiles_79: -2033371199
+      CosmicLilac_Tiles_8: 1549316785
+      CosmicLilac_Tiles_80: -1089354421
+      CosmicLilac_Tiles_81: 582094677
+      CosmicLilac_Tiles_82: 1058331522
+      CosmicLilac_Tiles_83: -276891773
+      CosmicLilac_Tiles_84: -1572522891
+      CosmicLilac_Tiles_85: -1622335376
+      CosmicLilac_Tiles_86: -1090631968
+      CosmicLilac_Tiles_87: 1252878978
+      CosmicLilac_Tiles_88: -744093477
+      CosmicLilac_Tiles_89: -693185627
+      CosmicLilac_Tiles_9: 613559328
+      CosmicLilac_Tiles_90: 379685460
+      CosmicLilac_Tiles_91: -102267850
+      CosmicLilac_Tiles_92: -1946853657
+      CosmicLilac_Tiles_93: -675060657
+      CosmicLilac_Tiles_94: -1677352305
+      CosmicLilac_Tiles_95: -1615782772
+      CosmicLilac_Tiles_96: -1820264519
+      CosmicLilac_Tiles_97: -664839092
+      CosmicLilac_Tiles_98: -2070982850
+      CosmicLilac_Tiles_99: -304906592
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
