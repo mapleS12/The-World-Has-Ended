@@ -145,7 +145,7 @@ namespace Assets.Scripts.Security
         private void LogViolation(string message)
         {
             violationCounter++;
-            UnityEngine.Debug.LogError($"[INTEGRITY VIOLATION] {message} - Count: {ciolationCounter}");
+            UnityEngine.Debug.LogError($"[INTEGRITY VIOLATION] {message} - Count: {violationCounter}");
 
             if (violationCounter >= MaxViolations)
             {
