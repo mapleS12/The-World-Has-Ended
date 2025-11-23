@@ -60,10 +60,12 @@ namespace Assets.Scripts.Security
         private void PerformCheck()
         {
             // Step 1. Logic Integrity Check (MOST IMPORTANT for catching runtime hacks)
+            /*
             if (CheckGameLogicSanity())
             {
                 LogViolation("Detected illogical runtime state (speed, damage, etc.).");
             }
+            */
 
             // Step 2. Code/Asset Tampering Check (Catches file modification)
             if (CheckAssetIntegrity())
@@ -74,10 +76,12 @@ namespace Assets.Scripts.Security
 
         // Checks if critical game variables are within "sane" and expected ranges.
         // This directly combats speed hacks, god mode, and resource cheats.
+        /*
         private bool CheckGameLogicSanity()
         {
             // Figure out what exactly needs to be checked as game build progresses
         }
+        */
 
         // Verifies the integrity of a critical file (code assembly or asset bundle)
         // by comparing its runtime hash with a hardcoded expected hash.
