@@ -39,7 +39,7 @@ namespace Assets.Scripts.Security
             for (int i = 0; i < dataBytes.Length; i++)
             {
                 // The modulo (%) operator ensures we cycle back through the keyBytes.
-                outputBytes[i[ = (byte)(dataBytes[i] ^ keyBytes[i % keyBytes.Length]);
+                outputBytes[i] = (byte)(dataBytes[i] ^ keyBytes[i % keyBytes.Length]);
             }
 
             // Step 4. Convert the scrambled bytes back into a string (using Base64 for safe storage).
