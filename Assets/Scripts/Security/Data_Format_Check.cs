@@ -5,7 +5,9 @@
  * Check Data Format
  * Threat: Human-Readable Data
  * Response: Game will immediately terminate.
- * Purpose: ...
+ * Purpose: Applies simple, reversible data scrambling to the final save file string using the XOR cipher and Base64 encoding. 
+ *          Its purpose is purely to obstruct casual save file tampering by rendering the data payload and its inetgrity hash.
+ *          completely human-unreadable, effectively hiding the key data from quick text-editor searches.
  */
 
 using UnityEngine;   // Needed for Debug.LogError

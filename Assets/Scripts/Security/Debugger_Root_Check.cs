@@ -4,15 +4,18 @@
  *
  * Check for Debugger and Root
  * Threat: Reverse Engineerings and Malicious Environment
- * Purpose: MMonitors the execution environment for signs of tampering on Android.
- *          Checks for managed debuggers, breakpoints, and rooted environments using heuristics. 
+ * Response: Game will immediately terminate.
+ * Purpose: Monitors the runtime execution environment for signs of external tampering, including the presence 
+ *          of managed debuggers, runtime breakpoints (via execution timing analysis), and heuristic indicators
+ *          of a rooted or jailbroken operating system. Its primary role is to ensure the code is running in a 
+ *          hostile-free, unmodified environment.
  */
 
 using UnityEngine;                        // 
 using System;                             //
 using System.Diagnostics;                 // Access to debugger and stopwatch class.
 using System.IO;
-using System.Runtime.CompilerServices;                          // For file system checks on mobile device.
+using System.Runtime.CompilerServices;    // For file system checks on mobile device.
 
 
 // Purpose of namespace: Group related security monitoring classes together.
@@ -21,7 +24,7 @@ namespace Assets.Scripts.Security
     // Adding Monobehavior means this class can be attached to a GameObject in Unity and run in the game loop.
     public class Debugger_Root_Check : MonoBehaviour
     {
-        // Purpose of configuration: 
+        // Purpose of configuration: ???
         // --- Configuration ---
         private const float CheckInterval = 5.0f;   // The frequency (seconds) to check the environment.
         private float nextCheckTime;                // Checking too often can hurt performance, too rarely can allow exploitation.
@@ -38,6 +41,7 @@ namespace Assets.Scripts.Security
          * 2. Figure out how to do prototypes
          * 3. Simplify and add more code for understanding
          * 4. Add JNI-based root detection for Android (advanced)
+         * 5. Purpose of configuration>
          */
 
 

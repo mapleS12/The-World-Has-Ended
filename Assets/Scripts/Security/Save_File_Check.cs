@@ -2,11 +2,13 @@
  * CSE 3310 || UTA Fall 2025 - Group 13
  * Project: THE WORLD HAS ENDED
  *
- * Check for Game Logic Integrity
- * Threat: Code and Asset Tampering
- * Response: Game will immediately terminate.
- * Purpose: MMonitors the execution environment for signs of tampering on Android.
- *          Checks for managed debuggers, breakpoints, and rooted environments using heuristics. 
+ * Check Save File Hash
+ * Threat: Save File Tampering
+ * Response: Game will reject the file or reset the player's data to prevent cheating.
+ * Purpose: Provides a cryptographic integrity layer for player save data. It utilizes SHA256 hashing,
+ *          combined with a secret salt, to generate an unforgeable hash of the saved payload.Its sole
+ *          purpose is to detect and prevent save file tampering by ensuring that the data loaded matches 
+ *          the exact data that was originally saved by the game's logic.
  */
 
 using UnityEngine;                   // Needed for JsonUtility and Debug.LogError.
@@ -115,6 +117,5 @@ namespace Scripts.Security.Save_File_Check
             // Step 4. Success: Return the original clean data.
             return loadedData.DataPayload;
         }
-
     }   
 }
