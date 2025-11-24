@@ -5,8 +5,10 @@
  * Check for Game Logic Integrity
  * Threat: Code and Asset Tampering
  * Response: Game will immediately terminate.
- * Purpose: MMonitors the execution environment for signs of tampering on Android.
- *          Checks for managed debuggers, breakpoints, and rooted environments using heuristics. 
+ * Purpose: Verifies the internal consistency and integrity of the game's core logic and files.
+ *          It actively combats runtime cheats by validating critical game variables against plausible,
+ *          "sane" ranges (e.g., player speed, currency bounds) and detects code/asset modification by 
+ *          comparing the cryptographic hash of critical executable files against a known, trusted hash value.
  */
 
 using UnityEngine;
