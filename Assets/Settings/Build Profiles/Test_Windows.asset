@@ -23,6 +23,7 @@ MonoBehaviour:
   m_ScriptingDefines:
   - Scenes/Main Menu
   - Scenes/Tutorial
+  - Scenes/Into Cutscene
   m_PlayerSettingsYaml:
     m_Settings: []
   references:
