@@ -9,7 +9,9 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 10f;
     public Button jumpButton;
     public Button interactButton;
-    public Toggle bendToggle;
+    public HoldButton bendButton;
+
+    private Animator anim;
 
     private Rigidbody2D rb;
 
@@ -27,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     }    
     void Jump()
     {
-        if (Mathf.Abs(rb.velocity.y) < 0.01f  && jumpButton.isPressed())
+        if (Mathf.Abs(rb.linearVelocity.y) < 0.01f  && jumpButton.isPressed())
         {
             
             GetComponent<Animator>().SetTrigger("Jump");
@@ -35,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Bend()
     {
-        if (Mathf.Abs(rb.velocity.y) < 0.01f)
+        if (Mathf.Abs(rb.linearVelocity.y) < 0.01f)
         {
             GetComponent<Animator>().SetTrigger("Bend");
             var collider = GetComponent<BoxCollider2D>();
