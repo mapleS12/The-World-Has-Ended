@@ -13,19 +13,19 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     bool IsJumpHeld()
     {
-        bool jumpHeld = jumpButton.onClick();
+        bool jumpHeld = jumpButton.onClick;
         return jumpHeld;
     }
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        jumpButton.onClick().AddListener(Jump);
-        interactButton.onClick().AddListener(Interact);
+        jumpButton.onClick.AddListener(Jump);
+        interactButton.onClick.AddListener(Interact);
     }    
     void Jump()
     {
-        if (Mathf.Abs(rb.linearVelocity.y) < 0.01f  && jumpButton.onClick())
+        if (Mathf.Abs(rb.linearVelocity.y) < 0.01f  && jumpButton.onClick)
         {
             
             GetComponent<Animator>().SetTrigger("Jump");
@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 movement = joystick.GetAxis();
         transform.Translate(new Vector3(movement.x, 0, 0) * speed * Time.deltaTime);
         GetComponent<Animator>().SetBool("isWalking", movement.x != 0);
-        if (jumpButton.onClick() && movement.y < -0.5f)
+        if (jumpButton.onClick && movement.y < -0.5f)
         {
             Bend();
         }
