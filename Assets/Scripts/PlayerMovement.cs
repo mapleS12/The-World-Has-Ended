@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             Bend();
         }
 
-        if (jumpHoldButton != null && jumpHoldButton.isPressed && Mathf.Abs(rb.velocity.y) < 0.01f)
+        if (jumpHoldButton != null && jumpHoldButton.isPressed && Mathf.Abs(rb.linearVelocity.y) < 0.01f)
         {
             Jump();
         }
