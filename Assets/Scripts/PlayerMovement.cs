@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
-using Terresquall; // Your joystick's namespace
+using Terresquall; // Namespace for your joystick
 
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
     public VirtualJoystick joystick;
     public float jumpForce = 10f;
-    public HoldButton jumpHoldButton; // NOT Button
+    public HoldButton jumpHoldButton; // For detecting jump press/hold
     public Button interactButton;
 
     private Animator anim;
@@ -25,17 +25,21 @@ public class PlayerMovement : MonoBehaviour
         if (joystick == null) return;
 
         Vector2 movement = joystick.GetAxis();
+
+        // Move the player horizontally
         transform.Translate(new Vector3(movement.x, 0, 0) * speed * Time.deltaTime);
+
+        // Switch between Idle and Walk animation
         anim.SetBool("isWalking", Mathf.Abs(movement.x) > 0.01f);
 
-        // For bend: jump button held & joystick down
-        if (jumpHoldButton.isPressed && movement.y < -0.5f)
+        // For 'Bend': hold jump and joystick down
+        if (jumpHoldButton != null && jumpHoldButton.isPressed && movement.y < -0.5f)
         {
             Bend();
         }
 
-        // Optional: Jump on press (hold logic handled by button events/UI)
-        if (jumpHoldButton.isPressed && Mathf.Abs(rb.linearVelocity.y) < 0.01f)
+        // Jump logic: jump if holding jump and not already jumping
+        if (jumpHoldButton != null && jumpHoldButton.isPressed && Mathf.Abs(rb.linearVelocity.y) < 0.01f)
         {
             Jump();
         }
@@ -46,11 +50,13 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         anim.SetTrigger("Jump");
     }
+
     void Bend()
     {
         anim.SetTrigger("Bend");
-        // Example: reduce collider height here, if wanted
+        // Add collider or visual adjustments if needed
     }
+
     void Interact()
     {
         anim.SetTrigger("Interact");

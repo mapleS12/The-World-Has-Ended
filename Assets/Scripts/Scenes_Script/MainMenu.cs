@@ -39,7 +39,7 @@ public class MainMenu : MonoBehaviour
     public void OpenNewGamePanel()
     {
         // Load the new game scene which is the Tutorial panel (scene 0)
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(3);
         
         //MainMenuPanel.SetActive(false);
         //NewGamePanel.SetActive(true);
