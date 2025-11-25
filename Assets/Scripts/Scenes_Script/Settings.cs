@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SettingsScreen : MonoBehaviour
+public class Settings : MonoBehaviour
 {
-    public void SetVolume (float volume)
+    public void SaveSettings()
     {
-        // Code to set the game's 
-        Debug.Log(volume);
+        // Implement settings save logic here
+        Debug.Log("Settings saved.");
     }
 }

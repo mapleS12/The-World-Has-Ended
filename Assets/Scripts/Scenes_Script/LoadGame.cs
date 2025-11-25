@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LoadGamePanel : MonoBehaviour
+public class LoadGame : MonoBehaviour
 {
     public void LoadFromSlot(string sceneName)
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AccomplishmentsPanel : MonoBehaviour
+public class Accomplishments : MonoBehaviour
 {
     public void RefreshAccomplishments()
     {

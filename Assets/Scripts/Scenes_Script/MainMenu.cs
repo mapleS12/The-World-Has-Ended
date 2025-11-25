@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
     public GameObject AccomplishmentsPanel;
     public GameObject NewGamePanel;
     public GameObject LoadGamePanel;
-
+    
     // --- Panel Transitions ---
 
     public void OpenSettingsPanel()
