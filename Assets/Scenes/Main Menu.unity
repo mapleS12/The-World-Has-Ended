@@ -338,13 +338,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 739109597}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1977311915}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OpenSettingsPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1039,7 +1039,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 621025071}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1977311915}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &621025071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1260,7 +1272,6 @@ GameObject:
   m_Component:
   - component: {fileID: 739109598}
   - component: {fileID: 739109599}
-  - component: {fileID: 739109600}
   m_Layer: 5
   m_Name: SettingsScreen
   m_TagString: Untagged
@@ -1300,19 +1311,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21847ff53160d114b9e45074d8022b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SettingsScreen
---- !u!114 &739109600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 739109597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34e150112c1c42ac83170b52d898e322, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TMP_ScrollbarEventHandler
-  isSelected: 0
+  VolumeSlider: {fileID: 1760501283}
+  VolumeText: {fileID: 0}
 --- !u!1 &764390002
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,7 +2408,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1233414545}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1977311915}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OpenAccomplishmentsPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1233414545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2530,13 +2542,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1977311913}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1977311915}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: ReturnFromSettings
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3070,7 +3082,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1579888497}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1977311915}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OpenLoadGamePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1579888497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3118,6 +3142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1651834389}
+  - component: {fileID: 1651834390}
   m_Layer: 5
   m_Name: LoadGameScreen
   m_TagString: Untagged
@@ -3145,6 +3170,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1651834390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651834388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ccc852b80f5454cb4c61aff5af785a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1760501281
 GameObject:
   m_ObjectHideFlags: 0
@@ -3710,7 +3747,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   MainMenuPanel: {fileID: 1977311913}
   SettingsPanel: {fileID: 739109597}
-  AccomplishmentsPanel: {fileID: 0}
+  AccomplishmentsPanel: {fileID: 565796795}
+  NewGamePanel: {fileID: 2042217727}
+  LoadGamePanel: {fileID: 1651834388}
 --- !u!1 &2037510793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3793,7 +3832,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2037510796}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1977311915}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OpenNewGamePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2037510796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3841,6 +3892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2042217728}
+  - component: {fileID: 2042217729}
   m_Layer: 5
   m_Name: NewGameScreen
   m_TagString: Untagged
@@ -3868,6 +3920,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2042217729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042217727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044d0caa17b18d645a869b3244d686d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &2142628078
 GameObject:
   m_ObjectHideFlags: 0

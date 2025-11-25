@@ -1,27 +1,37 @@
 using UnityEngine;
 
+public enum EnvironmentObjectType
+{
+    Collectible, // adds to inventory
+    Cleanable // disappears only
+}
 public class EnvironmentObject : MonoBehaviour
 {
-    public bool isCollectible = true;
-    public ItemData itemData;
+    public EnvironmentObjectType objectType = EnvironmentObjectType.Collectible;
+    public ItemData itemData; // only needed if collectible
 
     public void Interact(Inventory inventory)
     {
-        if (!isCollectible)
+        switch (objectType)
         {
-            Debug.Log("Not collectible.");
-            return;
-        }
+            case EnvironmentObjectType.Collectible:
+                if (itemData == null)
+                {
+                    Debug.LogWarning("Collectible missing ItemData!");
+                    return;
+                }
 
-        if (itemData == null)
-        {
-            Debug.LogWarning("Missing ItemData!");
-            return;
-        }
+                // If successfully added, remove object from scene
+                if (inventory.AddItem(itemData))
+                {
+                    Destroy(gameObject);
+                }
+                break;
 
-        if (inventory.AddItem(itemData))
-        {
-            Destroy(gameObject);
+            case EnvironmentObjectType.Cleanable:
+                Debug.Log("Trash cleaned!");
+                Destroy(gameObject);
+                break;
         }
     }
 }

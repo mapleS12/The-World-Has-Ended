@@ -1,11 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LoadGame : MonoBehaviour
 {
-    public void LoadFromSlot(string sceneName)
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }

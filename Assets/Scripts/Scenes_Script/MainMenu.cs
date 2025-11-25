@@ -19,10 +19,21 @@ public class MainMenu : MonoBehaviour
         SettingsPanel.SetActive(true);
     }
 
+    public void ReturnFromSettings()
+    {
+        SettingsPanel.SetActive(false);
+        MainMenuPanel.SetActive(true);
+    }
     public void OpenAccomplishmentsPanel()
     {
         MainMenuPanel.SetActive(false);
         AccomplishmentsPanel.SetActive(true);
+    }
+
+    public void ReturnFromAccomplishments()
+    {
+        AccomplishmentsPanel.SetActive(false);
+        MainMenuPanel.SetActive(true);
     }
 
     public void OpenNewGamePanel()
