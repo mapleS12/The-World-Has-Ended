@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 10f;
     public Button jumpButton;
     public Button interactButton;
-    public HoldButton bendButton;
 
     private Animator anim;
 
@@ -52,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 movement = joystick.GetAxis();
         transform.Translate(new Vector3(movement.x, 0, 0) * speed * Time.deltaTime);
         GetComponent<Animator>().SetBool("isWalking", movement.x != 0);
-        if (bendToggle.isOn && IsJumpHeld())
+        if (jumpButton.isPressed && movement.y < -0.5f)
         {
             Bend();
         }
