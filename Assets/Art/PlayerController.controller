@@ -365,19 +365,19 @@ AnimatorController:
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 9100000}
   - m_Name: Bend
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 9100000}
   - m_Name: Interact
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
@@ -1323,8 +1323,26 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    pptrCurveMapping:
+    - {fileID: 421047069433468534, guid: 4c0da52d6f926344c967b35228188643, type: 3}
+    - {fileID: 1185331952173927105, guid: 4c0da52d6f926344c967b35228188643, type: 3}
+    - {fileID: 8069246265563837628, guid: 4c0da52d6f926344c967b35228188643, type: 3}
+    - {fileID: 8531828418459403857, guid: 4c0da52d6f926344c967b35228188643, type: 3}
+    - {fileID: 5473882475132701008, guid: 4c0da52d6f926344c967b35228188643, type: 3}
+    - {fileID: 4847707792412216467, guid: 4c0da52d6f926344c967b35228188643, type: 3}
+    - {fileID: 4524071019757344337, guid: 4c0da52d6f926344c967b35228188643, type: 3}
+    - {fileID: 9155085147974149381, guid: 4c0da52d6f926344c967b35228188643, type: 3}
+    - {fileID: 9155085147974149381, guid: 4c0da52d6f926344c967b35228188643, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
