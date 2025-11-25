@@ -1,22 +1,24 @@
 using UnityEngine;
 using UnityEngine.UI;
-using Terresquall; // Namespace for your joystick
+using Terresquall; // Joystick namespace
 
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
     public VirtualJoystick joystick;
     public float jumpForce = 10f;
-    public HoldButton jumpHoldButton; // For detecting jump press/hold
+    public HoldButton jumpHoldButton;
     public Button interactButton;
 
     private Animator anim;
     private Rigidbody2D rb;
+    private PlayerInteraction playerInteraction; // Reference to your interaction script
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        playerInteraction = GetComponent<PlayerInteraction>();
         interactButton.onClick.AddListener(Interact);
     }
 
@@ -25,21 +27,15 @@ public class PlayerMovement : MonoBehaviour
         if (joystick == null) return;
 
         Vector2 movement = joystick.GetAxis();
-
-        // Move the player horizontally
         transform.Translate(new Vector3(movement.x, 0, 0) * speed * Time.deltaTime);
-
-        // Switch between Idle and Walk animation
         anim.SetBool("isWalking", Mathf.Abs(movement.x) > 0.01f);
 
-        // For 'Bend': hold jump and joystick down
         if (jumpHoldButton != null && jumpHoldButton.isPressed && movement.y < -0.5f)
         {
             Bend();
         }
 
-        // Jump logic: jump if holding jump and not already jumping
-        if (jumpHoldButton != null && jumpHoldButton.isPressed && Mathf.Abs(rb.linearVelocity.y) < 0.01f)
+        if (jumpHoldButton != null && jumpHoldButton.isPressed && Mathf.Abs(rb.velocity.y) < 0.01f)
         {
             Jump();
         }
@@ -54,12 +50,15 @@ public class PlayerMovement : MonoBehaviour
     void Bend()
     {
         anim.SetTrigger("Bend");
-        // Add collider or visual adjustments if needed
     }
 
     void Interact()
     {
-        anim.SetTrigger("Interact");
+        anim.SetTrigger("Interact");          // Play interact animation
+        if (playerInteraction != null)
+        {
+            playerInteraction.TryInteract();  // Run your interaction code
+        }
         Debug.Log("Player interacted!");
     }
 }
