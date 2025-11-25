@@ -1293,7 +1293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &565796796
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1683,8 +1683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21847ff53160d114b9e45074d8022b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SettingsScreen
-  VolumeSlider: {fileID: 1760501283}
-  VolumeText: {fileID: 0}
 --- !u!1 &764390002
 GameObject:
   m_ObjectHideFlags: 0
@@ -3983,7 +3981,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1977311915}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: ReturnFromSettings
+        m_MethodName: ReturnFromAccomplishments
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4669,7 +4667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1977311914
 RectTransform:
   m_ObjectHideFlags: 0
