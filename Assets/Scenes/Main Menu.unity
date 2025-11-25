@@ -1260,7 +1260,6 @@ GameObject:
   m_Component:
   - component: {fileID: 739109598}
   - component: {fileID: 739109599}
-  - component: {fileID: 739109600}
   m_Layer: 5
   m_Name: SettingsScreen
   m_TagString: Untagged
@@ -1300,19 +1299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21847ff53160d114b9e45074d8022b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SettingsScreen
---- !u!114 &739109600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 739109597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34e150112c1c42ac83170b52d898e322, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TMP_ScrollbarEventHandler
-  isSelected: 0
 --- !u!1 &764390002
 GameObject:
   m_ObjectHideFlags: 0
@@ -3118,6 +3104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1651834389}
+  - component: {fileID: 1651834390}
   m_Layer: 5
   m_Name: LoadGameScreen
   m_TagString: Untagged
@@ -3145,6 +3132,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1651834390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651834388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ccc852b80f5454cb4c61aff5af785a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1760501281
 GameObject:
   m_ObjectHideFlags: 0
@@ -3710,7 +3709,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   MainMenuPanel: {fileID: 1977311913}
   SettingsPanel: {fileID: 739109597}
-  AccomplishmentsPanel: {fileID: 0}
+  AccomplishmentsPanel: {fileID: 565796795}
+  NewGamePanel: {fileID: 2042217727}
+  LoadGamePanel: {fileID: 1651834388}
 --- !u!1 &2037510793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,6 +3842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2042217728}
+  - component: {fileID: 2042217729}
   m_Layer: 5
   m_Name: NewGameScreen
   m_TagString: Untagged
@@ -3868,6 +3870,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2042217729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042217727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044d0caa17b18d645a869b3244d686d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &2142628078
 GameObject:
   m_ObjectHideFlags: 0
