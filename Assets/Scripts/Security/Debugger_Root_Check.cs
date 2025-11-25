@@ -11,29 +11,34 @@
  *          hostile-free, unmodified environment.
  */
 
-using UnityEngine;                        // 
-using System;                             //
+using UnityEngine;                
+using System;                       
 using System.Diagnostics;                 // Access to debugger and stopwatch class.
 using System.IO;
 using System.Runtime.CompilerServices;    // For file system checks on mobile device.
 
-
+/*
 // Purpose of namespace: Group related security monitoring classes together.
 namespace Assets.Scripts.Security
 {
     // Adding Monobehavior means this class can be attached to a GameObject in Unity and run in the game loop.
     public class Debugger_Root_Check : MonoBehaviour
     {
-        // Purpose of configuration: ???
         // --- Configuration ---
         private const float CheckInterval = 5.0f;   // The frequency (seconds) to check the environment.
         private float nextCheckTime;                // Checking too often can hurt performance, too rarely can allow exploitation.
         
         // --- Detection Threshold ---
-        // Instead of reacting instantly, a simple counter allows to help rpevent false positives and makes it harder
+        // Instead of reacting instantly, a simple counter allows to help preevent false positives and makes it harder
         // for the attacker to isolate the exact moment of detection.
         private int violationCounter = 0;           // Simple counter to track detected anomolies.
-        private const int MaxViolations = 3;        //A high count can trigger a severe response (e.g., game shutdown, data corruption).
+        private const int MaxViolations = 3;        // A high count can trigger a severe response (e.g., game shutdown, data corruption).
+
+        // Function Prototypes
+        /* To-Do-List:
+         * 1. Create Tests for this
+         * 2. Add JNI-based root detection for Android (advanced)
+         */
 
         // Function Prototypes
         /* To-Do-List:
@@ -47,7 +52,7 @@ namespace Assets.Scripts.Security
 
 
         // Initial security check upon starting the game.
-        void Start()
+        /*void Start()
         {
             PerformCheck();
             nextCheckTime = Time.time + CheckInterval;
@@ -75,7 +80,7 @@ namespace Assets.Scripts.Security
 
             // Step 2. Root Check (Heuristic search for system files)
             #if UNITY_ANDROID // Only run when the game is built for Android
-            if ((CheckRootORJailbreak())
+            if (CheckRootOrJailbreak())
             {
                 LogViolation("Root Environment Detected.");
             }
@@ -180,3 +185,4 @@ namespace Assets.Scripts.Security
         }
     }
 }
+*/
