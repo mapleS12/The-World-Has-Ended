@@ -42,7 +42,11 @@ public class PlayerMovement : MonoBehaviour
         
         if (Input.GetMouseButtonDown(0))
         {
-            TryInteract();
+            if (playerInteraction != null)
+            {
+                playerInteraction.TryInteract();
+            }
+
         }
     }
 
