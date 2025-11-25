@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using VirtualJoystick;  // 🔥 IMPORTANT: your joystick lives in this namespace
+using Terresquall;  // 🔥 IMPORTANT: your joystick lives in this namespace
 
 public class PlayerMovement : MonoBehaviour
 {
