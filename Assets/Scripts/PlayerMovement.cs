@@ -39,6 +39,11 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
+        
+        if (Input.GetMouseButtonDown(0))
+        {
+            TryInteract();
+        }
     }
 
     void Jump()
