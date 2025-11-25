@@ -4,7 +4,7 @@ using Terresquall; // Joystick namespace
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 15f;
     public VirtualJoystick joystick;
     public float jumpForce = 10f;
     public HoldButton jumpHoldButton;
