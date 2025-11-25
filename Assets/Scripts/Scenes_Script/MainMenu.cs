@@ -30,6 +30,12 @@ public class MainMenu : MonoBehaviour
         AccomplishmentsPanel.SetActive(true);
     }
 
+    public void ReturnFromAccomplishments()
+    {
+        AccomplishmentsPanel.SetActive(false);
+        MainMenuPanel.SetActive(true);
+    }
+
     public void OpenNewGamePanel()
     {
         MainMenuPanel.SetActive(false);
