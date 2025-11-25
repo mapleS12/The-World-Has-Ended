@@ -1342,6 +1342,8 @@ GameObject:
   - component: {fileID: 697332894}
   - component: {fileID: 697332893}
   - component: {fileID: 697332892}
+  - component: {fileID: 697332898}
+  - component: {fileID: 697332897}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -1501,12 +1503,41 @@ Transform:
   m_GameObject: {fileID: 697332891}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 750.85297, y: 96.91278, z: 0}
+  m_LocalPosition: {x: 791, y: 146, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &697332897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697332891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc560e6592ea234a956e892d807b883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
+--- !u!114 &697332898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697332891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c26baa38fb9c244803042b557e3913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  speed: 5
+  joystick: {fileID: 0}
+  jumpForce: 10
+  jumpHoldButton: {fileID: 0}
+  interactButton: {fileID: 0}
 --- !u!1 &759504814
 GameObject:
   m_ObjectHideFlags: 0
