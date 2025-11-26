@@ -143,3 +143,4 @@ MonoBehaviour:
   objectType: 0
   itemData: {fileID: 11400000, guid: 085bb036494486e4a980a4d65c953548, type: 2}
   requiredItemID: 
+  objectiveID: pickup_broom

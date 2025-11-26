@@ -143,3 +143,4 @@ MonoBehaviour:
   objectType: 0
   itemData: {fileID: 11400000, guid: 4d66ec53824aa1d42bc0f457a39f0e83, type: 2}
   requiredItemID: 
+  objectiveID: collect_log

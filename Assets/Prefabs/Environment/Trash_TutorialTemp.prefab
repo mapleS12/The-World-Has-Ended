@@ -153,3 +153,4 @@ MonoBehaviour:
   objectType: 1
   itemData: {fileID: 0}
   requiredItemID: broom_tool
+  objectiveID: clear_trash

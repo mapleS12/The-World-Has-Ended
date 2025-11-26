@@ -119,6 +119,74 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &124121844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124121847}
+  - component: {fileID: 124121846}
+  - component: {fileID: 124121845}
+  m_Layer: 0
+  m_Name: GameSystems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &124121845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124121844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8155000d2df4f04fa291faabefb50cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RegionManager
+  regions:
+  - regionID: tutorial
+    regionQuests:
+    - {fileID: 0}
+    isUnlocked: 1
+  - regionID: level_01
+    regionQuests: []
+    isUnlocked: 0
+--- !u!114 &124121846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124121844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a7d44cb8cab84d47942ef1bac0ea988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestManager
+  regionManager: {fileID: 0}
+  activeQuests: []
+  completedQuests: []
+--- !u!4 &124121847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124121844}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 568.46436, y: 277.70963, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &363762033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -127,6 +195,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 784167924629360447, guid: 505c79b2fe380f94896d263e31fd3f28, type: 3}
+      propertyPath: objectiveID
+      value: collect_log
+      objectReference: {fileID: 0}
     - target: {fileID: 1945402920800948853, guid: 505c79b2fe380f94896d263e31fd3f28, type: 3}
       propertyPath: m_Name
       value: Artifact_TutorialLog01
@@ -239,6 +311,10 @@ PrefabInstance:
     - target: {fileID: 1169069566186031518, guid: fcc9ff9dc966ad04b9835d1371b65145, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137495229895008724, guid: fcc9ff9dc966ad04b9835d1371b65145, type: 3}
+      propertyPath: objectiveID
+      value: clear_trash
       objectReference: {fileID: 0}
     - target: {fileID: 9148091459300689210, guid: fcc9ff9dc966ad04b9835d1371b65145, type: 3}
       propertyPath: m_Name
@@ -11809,6 +11885,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372076848}
   m_CullTransparentMesh: 1
+--- !u!1 &1424624741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1424624743}
+  - component: {fileID: 1424624742}
+  m_Layer: 0
+  m_Name: Tutorial_QuestInitializer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1424624742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424624741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7771527131834654fbd3fb1492d5ec27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestInitializer
+  tutorialQuests:
+  - {fileID: 11400000, guid: 701322eba1972ca4fac5f00866b0455a, type: 2}
+--- !u!4 &1424624743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424624741}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 568.46436, y: 277.70963, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1441240065
 GameObject:
   m_ObjectHideFlags: 0
@@ -12444,6 +12566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Broom_tool
       objectReference: {fileID: 0}
+    - target: {fileID: 1211304509493111933, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
+      propertyPath: objectiveID
+      value: pickup_broom
+      objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 725.3
@@ -12502,3 +12628,5 @@ SceneRoots:
   - {fileID: 363762033}
   - {fileID: 4835813373624825616}
   - {fileID: 1592772168}
+  - {fileID: 124121847}
+  - {fileID: 1424624743}
