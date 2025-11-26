@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e05364579b9d7f54fae5f546fab6d98e, type: 3}
   m_Name: Artifact_TutorialLog01
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemID: 
-  itemName: 
-  description: 
+  itemID: Tutorial_log_01
+  itemName: Experiment Log
+  description: Dusty research notes mentioning sister facilities across various regions.
+    Scattered coordinates and half-erases names suggesting a direction, but nothing
+    you can reliably follow... yet.
   itemType: 0

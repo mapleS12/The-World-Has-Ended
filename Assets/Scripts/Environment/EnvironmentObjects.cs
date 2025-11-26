@@ -9,9 +9,17 @@ public class EnvironmentObject : MonoBehaviour
 {
     public EnvironmentObjectType objectType = EnvironmentObjectType.Collectible;
     public ItemData itemData; // only needed if collectible
+    public string requiredItemID; // leave blank if no tool required for interaction
 
     public void Interact(Inventory inventory)
     {
+        // If trash requires broom or tool
+        if (!string.IsNullOrEmpty(requiredItemID) && !inventory.HasItem(requiredItemID))
+        {
+            Debug.Log($"You need {requiredItemID} to interact with this.");
+            return;
+        }
+
         switch (objectType)
         {
             case EnvironmentObjectType.Collectible:

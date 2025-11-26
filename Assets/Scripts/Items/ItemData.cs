@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// ONLY assign ItemType to collectible items in EnvironmentObject, if cleanable, no need for ItemData
 public enum ItemType
 {
     Artifact,

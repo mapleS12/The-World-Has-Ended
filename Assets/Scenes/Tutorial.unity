@@ -242,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9148091459300689210, guid: fcc9ff9dc966ad04b9835d1371b65145, type: 3}
       propertyPath: m_Name
-      value: Trash_TutorialTemp
+      value: TrashBag_Tutorial
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

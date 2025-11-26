@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9076882517889581054}
   - component: {fileID: 8288935788303052431}
   - component: {fileID: 784167924629360447}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Artifact_TutorialLog01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1333359845
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -5229332913767248205, guid: d36681ab8cc0ec54ca687f3f2fc1f0a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -142,3 +142,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnvironmentObject
   objectType: 0
   itemData: {fileID: 11400000, guid: 4d66ec53824aa1d42bc0f457a39f0e83, type: 2}
+  requiredItemID: 
