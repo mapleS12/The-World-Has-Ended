@@ -9,15 +9,7 @@ public class PlayerInteraction : MonoBehaviour
         inventory = GetComponent<Inventory>();
     }
 
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            TryInteract();
-        }
-    }
-
-    void TryInteract()
+    public void TryInteract()
     {
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 worldPos2D = new Vector2(worldPos.x, worldPos.y);
