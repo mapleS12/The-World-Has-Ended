@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1945402920800948853
+--- !u!1 &728422874493207714
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6117203291031246068}
-  - component: {fileID: 9076882517889581054}
-  - component: {fileID: 8288935788303052431}
-  - component: {fileID: 784167924629360447}
+  - component: {fileID: 1821627336122030438}
+  - component: {fileID: 9185885966994658055}
+  - component: {fileID: 2149941744639713429}
+  - component: {fileID: 1211304509493111933}
   m_Layer: 11
-  m_Name: Artifact_TutorialLog01
+  m_Name: Broom_tool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6117203291031246068
+--- !u!4 &1821627336122030438
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945402920800948853}
+  m_GameObject: {fileID: 728422874493207714}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 160.6, y: 531.3, z: 0}
-  m_LocalScale: {x: 50, y: 50, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.12335795, w: -0.9923622}
+  m_LocalPosition: {x: 725.3, y: 390.2, z: 0}
+  m_LocalScale: {x: 60, y: 60, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &9076882517889581054
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.172}
+--- !u!212 &9185885966994658055
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945402920800948853}
+  m_GameObject: {fileID: 728422874493207714}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -78,27 +78,27 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -1333359845
-  m_SortingLayer: 0
+  m_SortingLayerID: -443971775
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5229332913767248205, guid: d36681ab8cc0ec54ca687f3f2fc1f0a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d6e178b712c0514aa43c26e293c7ec3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.11, y: 0.09}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &8288935788303052431
+--- !u!58 &2149941744639713429
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945402920800948853}
+  m_GameObject: {fileID: 728422874493207714}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -127,20 +127,20 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.34375
---- !u!114 &784167924629360447
+  m_Radius: 0.99999994
+--- !u!114 &1211304509493111933
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945402920800948853}
+  m_GameObject: {fileID: 728422874493207714}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f943120fd63b2349ba406b32280aac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnvironmentObject
   objectType: 0
-  itemData: {fileID: 11400000, guid: 4d66ec53824aa1d42bc0f457a39f0e83, type: 2}
+  itemData: {fileID: 11400000, guid: 085bb036494486e4a980a4d65c953548, type: 2}
   requiredItemID: 
-  objectiveID: collect_log
+  objectiveID: pickup_broom

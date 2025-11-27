@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e05364579b9d7f54fae5f546fab6d98e, type: 3}
   m_Name: Tool_Broom
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemID: 
-  itemName: 
-  description: 
-  itemType: 0
+  itemID: broom_tool
+  itemName: Broom
+  description: Use this tool to sweep up trash!
+  itemType: 1
