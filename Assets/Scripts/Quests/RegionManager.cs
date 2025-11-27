@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 [System.Serializable]
 public class RegionData
 {
+    [Tooltip("Unique region identifier")]
     public string regionID;
+    [Tooltip("Tag a Quest ScriptableObject here.")]
     public List<QuestData> regionQuests;
+    [Tooltip("Only manually assign to tutorial level. Will automatically update to Unlocked once region quests are completed.")]
     public bool isUnlocked;
 }
 
