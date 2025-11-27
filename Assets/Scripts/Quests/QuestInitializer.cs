@@ -5,6 +5,7 @@ using UnityEngine;
 // this is for the tutorial level only, it auto starts the quests on scene load, which is not what we would do for level 1 or future levels.
 public class QuestInitializer : MonoBehaviour
 {
+    [Tooltip("Tag quests you wish to auto start upon scene load.")]
     public List<QuestData> tutorialQuests;
 
     void Start()
