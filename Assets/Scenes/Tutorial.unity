@@ -1386,7 +1386,7 @@ Animator:
   m_GameObject: {fileID: 697332891}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 8291283317284567149, guid: 2f7af8fb49a194141b23f7839b39a21a, type: 3}
+  m_Controller: {fileID: -3121533918246504587, guid: 55df447860a34d344b6aa7366f0accce, type: 3}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1571,8 +1571,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 621b554bd50248b49979cc2493ea3803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RojoPlayerController
-  moveSpeed: 5
+  walkSpeed: 3
+  runSpeed: 5
   joystickID: 5
+  interactDuration: 0.35
 --- !u!70 &697332900
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1632,43 +1634,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 443.78
+      value: 435.3
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 271.89
+      value: 274.3
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.9923622
+      value: 0.043774877
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.09458774
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.99443144
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.12335795
+      value: -0.015592136
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -1.302
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 185.166
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -14.172
+      value: -10.926
       objectReference: {fileID: 0}
     - target: {fileID: 2149941744639713429, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_Radius
@@ -12331,15 +12333,17 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -0.9012737, y: 4.780015}
       - {x: -0.920044, y: 0.8549997}
-      - {x: -0.12314607, y: 1.0247087}
+      - {x: -0.14663297, y: 0.86028504}
       - {x: -0.11684403, y: 3.1408486}
-      - {x: 3.4500787, y: 3.1589653}
+      - {x: 3.262338, y: 3.1243796}
+      - {x: 3.2860997, y: 1.6839521}
+      - {x: 3.4405813, y: 1.6831408}
       - {x: 3.433647, y: 1.0488976}
       - {x: 5.221251, y: 1.0370106}
-      - {x: 5.2431216, y: -0.2555642}
-      - {x: 2.825147, y: -0.22822157}
-      - {x: 2.8348532, y: 1.0095148}
-      - {x: -0.10597253, y: 1.0232017}
+      - {x: 5.263817, y: -0.45215204}
+      - {x: 2.8303201, y: -0.4455031}
+      - {x: 2.8348532, y: 0.8137737}
+      - {x: -0.13729146, y: 0.84311855}
       - {x: -1.0327003, y: 0.8151576}
       - {x: -0.89536357, y: -1.2622905}
       - {x: 6.1747417, y: -1.2703846}

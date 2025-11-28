@@ -1,67 +1,67 @@
 fileFormatVersion: 2
-guid: 1cc31bfb391b07a468e003b85edd24fc
+guid: c7c957597d0f2894088648bd46d4938e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3008919122188409800
-    second: 16x16 Walk Cycle-Sheet_0
+      213: -3399603152978401081
+    second: 16x16 Interact-Sheet_0
   - first:
-      213: 5769840856519989209
-    second: 16x16 Walk Cycle-Sheet_1
+      213: 6978724838067565382
+    second: 16x16 Interact-Sheet_1
   - first:
-      213: 7523858876558204486
-    second: 16x16 Walk Cycle-Sheet_2
+      213: -3815093958461382087
+    second: 16x16 Interact-Sheet_2
   - first:
-      213: 574034935812822848
-    second: 16x16 Walk Cycle-Sheet_3
+      213: -1304433091875124734
+    second: 16x16 Interact-Sheet_3
   - first:
-      213: -4329299517875469694
-    second: 16x16 Walk Cycle-Sheet_4
+      213: -8300525433286823865
+    second: 16x16 Interact-Sheet_4
   - first:
-      213: 592634990284585236
-    second: 16x16 Walk Cycle-Sheet_5
+      213: -4385493284010550857
+    second: 16x16 Interact-Sheet_5
   - first:
-      213: -8390424399230803557
-    second: 16x16 Walk Cycle-Sheet_6
+      213: -5366224430657836684
+    second: 16x16 Interact-Sheet_6
   - first:
-      213: -220212256124213012
-    second: 16x16 Walk Cycle-Sheet_7
+      213: 291552892094088571
+    second: 16x16 Interact-Sheet_7
   - first:
-      213: 5110660707058600742
-    second: 16x16 Walk Cycle-Sheet_8
+      213: -4429036388550914548
+    second: 16x16 Interact-Sheet_8
   - first:
-      213: 5650759777930636483
-    second: 16x16 Walk Cycle-Sheet_9
+      213: 1196276242124983310
+    second: 16x16 Interact-Sheet_9
   - first:
-      213: -8879992640919468365
-    second: 16x16 Walk Cycle-Sheet_10
+      213: 340494881151246688
+    second: 16x16 Interact-Sheet_10
   - first:
-      213: -1954441758449889061
-    second: 16x16 Walk Cycle-Sheet_11
+      213: -6534300289002348259
+    second: 16x16 Interact-Sheet_11
   - first:
-      213: -696227150182303567
-    second: 16x16 Walk Cycle-Sheet_12
+      213: -5688700907793918962
+    second: 16x16 Interact-Sheet_12
   - first:
-      213: 2255462198449586914
-    second: 16x16 Walk Cycle-Sheet_13
+      213: 8029922253482104615
+    second: 16x16 Interact-Sheet_13
   - first:
-      213: 9216774597738629928
-    second: 16x16 Walk Cycle-Sheet_14
+      213: 1838655334915419040
+    second: 16x16 Interact-Sheet_14
   - first:
-      213: -5407800825154476148
-    second: 16x16 Walk Cycle-Sheet_15
+      213: 3771879970977541281
+    second: 16x16 Interact-Sheet_15
   - first:
-      213: 1509290598299365812
-    second: 16x16 Walk Cycle-Sheet_16
+      213: -1776927425851116428
+    second: 16x16 Interact-Sheet_16
   - first:
-      213: 8338126814226011591
-    second: 16x16 Walk Cycle-Sheet_17
+      213: 755189113680265274
+    second: 16x16 Interact-Sheet_17
   - first:
-      213: -2685285373238957268
-    second: 16x16 Walk Cycle-Sheet_18
+      213: -6294105228055569363
+    second: 16x16 Interact-Sheet_18
   - first:
-      213: -8878625795685859641
-    second: 16x16 Walk Cycle-Sheet_19
+      213: -4784759487773113536
+    second: 16x16 Interact-Sheet_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -94,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,19 +132,6 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -154,7 +141,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -179,407 +166,376 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_0
+      name: 16x16 Interact-Sheet_0
       rect:
         serializedVersion: 2
         x: 3
-        y: 75
+        y: 79
         width: 14
         height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8346414100c2e36d0800000000000000
-      internalID: -3008919122188409800
+      spriteID: 7c8ac69b1fe22d0d0800000000000000
+      internalID: -3399603152978401081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 56
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d7d86760b7921050800000000000000
-      internalID: 5769840856519989209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_1
+      name: 16x16 Interact-Sheet_1
       rect:
         serializedVersion: 2
         x: 23
-        y: 75
+        y: 79
         width: 14
-        height: 19
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64edb6df8cd1a6860800000000000000
-      internalID: 7523858876558204486
+      spriteID: 643763ee34969d060800000000000000
+      internalID: 6978724838067565382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_2
+      name: 16x16 Interact-Sheet_2
       rect:
         serializedVersion: 2
         x: 43
-        y: 75
+        y: 79
         width: 14
-        height: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04799c59bb167f700800000000000000
-      internalID: 574034935812822848
+      spriteID: 932ab2d02401e0bc0800000000000000
+      internalID: -3815093958461382087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_3
+      name: 16x16 Interact-Sheet_3
       rect:
         serializedVersion: 2
         x: 63
-        y: 75
+        y: 79
         width: 14
-        height: 19
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28243cea60d3be3c0800000000000000
-      internalID: -4329299517875469694
+      spriteID: 20ac48d9309b5ede0800000000000000
+      internalID: -1304433091875124734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 56
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 419316d3266793800800000000000000
-      internalID: 592634990284585236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_4
+      name: 16x16 Interact-Sheet_4
       rect:
         serializedVersion: 2
         x: 3
-        y: 56
+        y: 59
         width: 14
         height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b91e31996793f8b80800000000000000
-      internalID: -8390424399230803557
+      spriteID: 740f7d3b81c9ecc80800000000000000
+      internalID: -8300525433286823865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_9
+      name: 16x16 Interact-Sheet_5
       rect:
         serializedVersion: 2
         x: 23
-        y: 37
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce8678aae16a1fcf0800000000000000
-      internalID: -220212256124213012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 56
+        y: 59
         width: 14
-        height: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62b46cbe5d6bce640800000000000000
-      internalID: 5110660707058600742
+      spriteID: 7b990b1f7199323c0800000000000000
+      internalID: -4385493284010550857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 37
-        width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ccee9a34188b6e40800000000000000
-      internalID: 5650759777930636483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 37
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b689e5cdbde3c480800000000000000
-      internalID: -8879992640919468365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 19
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd09765639d60e4e0800000000000000
-      internalID: -1954441758449889061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_10
+      name: 16x16 Interact-Sheet_6
       rect:
         serializedVersion: 2
         x: 44
-        y: 37
-        width: 12
-        height: 18
+        y: 59
+        width: 14
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b8b66e78118656f0800000000000000
-      internalID: -696227150182303567
+      spriteID: 479ed91df475785b0800000000000000
+      internalID: -5366224430657836684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_15
+      name: 16x16 Interact-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 59
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7581868fcdcb0400800000000000000
+      internalID: 291552892094088571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Interact-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 39
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ec423eed6e882c0800000000000000
+      internalID: -4429036388550914548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Interact-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 39
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c491177e60a9010800000000000000
+      internalID: 1196276242124983310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Interact-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 39
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061ebd65a4ea9b400800000000000000
+      internalID: 340494881151246688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Interact-Sheet_11
       rect:
         serializedVersion: 2
         x: 64
+        y: 39
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d116842e1808155a0800000000000000
+      internalID: -6534300289002348259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Interact-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4
         y: 19
         width: 12
         height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e2c8e66be20d4f10800000000000000
-      internalID: 2255462198449586914
+      spriteID: e0450851aacad01b0800000000000000
+      internalID: -5688700907793918962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_12
+      name: 16x16 Interact-Sheet_13
       rect:
         serializedVersion: 2
-        x: 4
-        y: 18
+        x: 24
+        y: 19
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7271ec4ceb3007f60800000000000000
+      internalID: 8029922253482104615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Interact-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 19
         width: 12
-        height: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82b0e010aaf88ef70800000000000000
-      internalID: 9216774597738629928
+      spriteID: 0aba2061947348910800000000000000
+      internalID: 1838655334915419040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_833535
+      name: 16x16 Interact-Sheet_15
       rect:
         serializedVersion: 2
-        x: 23
-        y: 0
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c876a902dc1a3f4b0800000000000000
-      internalID: -5407800825154476148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 18
+        x: 64
+        y: 19
         width: 12
-        height: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b178767dc312f410800000000000000
-      internalID: 1509290598299365812
+      spriteID: 1ace68d69d8685430800000000000000
+      internalID: 3771879970977541281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_19
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 0
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c5d916092af6b370800000000000000
-      internalID: 8338126814226011591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_16
+      name: 16x16 Interact-Sheet_16
       rect:
         serializedVersion: 2
         x: 3
@@ -587,37 +543,81 @@ TextureImporter:
         width: 14
         height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2b2a872e23fbbad0800000000000000
-      internalID: -2685285373238957268
+      spriteID: 474be76bbe51757e0800000000000000
+      internalID: -1776927425851116428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 Walk Cycle-Sheet_18
+      name: 16x16 Interact-Sheet_17
       rect:
         serializedVersion: 2
-        x: 43
+        x: 23
         y: 0
         width: 14
-        height: 17
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ce368a31e8c8c480800000000000000
-      internalID: -8878625795685859641
+      spriteID: a30872b6f78fa7a00800000000000000
+      internalID: 755189113680265274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Interact-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c91d684a8d6a8a0800000000000000
+      internalID: -6294105228055569363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Interact-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0438a9bb89e199db0800000000000000
+      internalID: -4784759487773113536
       vertices: []
       indices: 
       edges: []
@@ -626,7 +626,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 29345c4679c733647b3fc545ecc702d4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -636,29 +636,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      16x16 Walk Cycle-Sheet_0: -3008919122188409800
-      16x16 Walk Cycle-Sheet_1: 7523858876558204486
-      16x16 Walk Cycle-Sheet_10: -696227150182303567
-      16x16 Walk Cycle-Sheet_11: 5650759777930636483
-      16x16 Walk Cycle-Sheet_12: 9216774597738629928
-      16x16 Walk Cycle-Sheet_13: -1954441758449889061
-      16x16 Walk Cycle-Sheet_14: 1509290598299365812
-      16x16 Walk Cycle-Sheet_15: 2255462198449586914
-      16x16 Walk Cycle-Sheet_16: -2685285373238957268
-      16x16 Walk Cycle-Sheet_18: -8878625795685859641
-      16x16 Walk Cycle-Sheet_19: 8338126814226011591
-      16x16 Walk Cycle-Sheet_2: 574034935812822848
-      16x16 Walk Cycle-Sheet_3: -4329299517875469694
-      16x16 Walk Cycle-Sheet_4: -8390424399230803557
-      16x16 Walk Cycle-Sheet_5: 5769840856519989209
-      16x16 Walk Cycle-Sheet_6: 5110660707058600742
-      16x16 Walk Cycle-Sheet_7: 592634990284585236
-      16x16 Walk Cycle-Sheet_8: -8879992640919468365
-      16x16 Walk Cycle-Sheet_833535: -5407800825154476148
-      16x16 Walk Cycle-Sheet_9: -220212256124213012
-      216x16 Walk Cycle-Sheet_5: 592634990284585236
-      4: -8879992640919468365
-      5: 5769840856519989209
+      16x16 Interact-Sheet_0: -3399603152978401081
+      16x16 Interact-Sheet_1: 6978724838067565382
+      16x16 Interact-Sheet_10: 340494881151246688
+      16x16 Interact-Sheet_11: -6534300289002348259
+      16x16 Interact-Sheet_12: -5688700907793918962
+      16x16 Interact-Sheet_13: 8029922253482104615
+      16x16 Interact-Sheet_14: 1838655334915419040
+      16x16 Interact-Sheet_15: 3771879970977541281
+      16x16 Interact-Sheet_16: -1776927425851116428
+      16x16 Interact-Sheet_17: 755189113680265274
+      16x16 Interact-Sheet_18: -6294105228055569363
+      16x16 Interact-Sheet_19: -4784759487773113536
+      16x16 Interact-Sheet_2: -3815093958461382087
+      16x16 Interact-Sheet_3: -1304433091875124734
+      16x16 Interact-Sheet_4: -8300525433286823865
+      16x16 Interact-Sheet_5: -4385493284010550857
+      16x16 Interact-Sheet_6: -5366224430657836684
+      16x16 Interact-Sheet_7: 291552892094088571
+      16x16 Interact-Sheet_8: -4429036388550914548
+      16x16 Interact-Sheet_9: 1196276242124983310
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
