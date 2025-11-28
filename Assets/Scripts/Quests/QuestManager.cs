@@ -25,11 +25,12 @@ public class QuestManager : MonoBehaviour
         if (regionManager == null)
             regionManager = FindFirstObjectByType<RegionManager>(); // tsting if i need this
 
-        /*if (quest.status == QuestStatus.Active || quest.status == QuestStatus.Completed)
+        // prevents starting a quest that's already active or completed
+        if (quest.status == QuestStatus.Active || quest.status == QuestStatus.Completed)
         {
             Debug.Log("Quest already started or completed.");
             return;
-        }*/ // temp disable for testing
+        }
 
         quest.status = QuestStatus.Active;
         activeQuests.Add(quest);
