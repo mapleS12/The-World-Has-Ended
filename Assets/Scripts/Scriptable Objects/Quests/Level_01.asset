@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a31f94d94f1ae4aac66cefb8174ae0, type: 3}
+  m_Name: Level_01
+  m_EditorClassIdentifier: Assembly-CSharp::QuestData
+  questID: level_01
+  questName: Explore the Ruined Settlement
+  regionID: level_01
+  questDescription: Take a look around. Maybe you'll find something useful! Complete
+    all objectives to unlock the next level.
+  objectives:
+  - objectiveID: explore_town
+    description: Explore the ruins
+    objectiveType: 2
+    isCompleted: 0
+    requiredCount: 0
+    currentCount: 0
+    targetLocation: {fileID: 0}
+  - objectiveID: find_artifacts
+    description: Find 2 artifacts
+    objectiveType: 3
+    isCompleted: 0
+    requiredCount: 2
+    currentCount: 0
+    targetLocation: {fileID: 0}
+  - objectiveID: clear_road
+    description: Clear trash blocking main road
+    objectiveType: 4
+    isCompleted: 0
+    requiredCount: 5
+    currentCount: 0
+    targetLocation: {fileID: 0}
+  - objectiveID: clear_entrance
+    description: Clear the entrance to the laboratory
+    objectiveType: 4
+    isCompleted: 0
+    requiredCount: 3
+    currentCount: 0
+    targetLocation: {fileID: 0}
+  - objectiveID: reach_lab
+    description: Reach laboratory door
+    objectiveType: 2
+    isCompleted: 0
+    requiredCount: 0
+    currentCount: 0
+    targetLocation: {fileID: 0}
+  status: 0

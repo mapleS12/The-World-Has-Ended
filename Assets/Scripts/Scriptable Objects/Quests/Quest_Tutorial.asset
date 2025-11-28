@@ -19,11 +19,23 @@ MonoBehaviour:
   objectives:
   - objectiveID: pickup_broom
     description: Find something to clean up the waste
+    objectiveType: 0
     isCompleted: 0
+    requiredCount: 0
+    currentCount: 0
+    targetLocation: {fileID: 0}
   - objectiveID: collect_log
     description: Collect an artifact
+    objectiveType: 0
     isCompleted: 0
+    requiredCount: 0
+    currentCount: 0
+    targetLocation: {fileID: 0}
   - objectiveID: clear_trash
     description: Clear the trash blocking your exit an artifact
+    objectiveType: 1
     isCompleted: 0
-  status: 1
+    requiredCount: 2
+    currentCount: 0
+    targetLocation: {fileID: 0}
+  status: 2

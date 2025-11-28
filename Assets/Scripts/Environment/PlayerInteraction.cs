@@ -32,6 +32,10 @@ public class PlayerInteraction : MonoBehaviour
                 return;
         }
 
+        // SECOND SAFETY: avoid inf/nan
+        if (float.IsInfinity(screenPos.x) || float.IsInfinity(screenPos.y))
+            return;
+
         // Convert screen → world
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
         Vector2 world = new Vector2(worldPos.x, worldPos.y);
@@ -40,10 +44,8 @@ public class PlayerInteraction : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(world, Vector2.zero);
 
         if (hit.collider != null)
-        {
-            EnvironmentObject envObj = hit.collider.GetComponent<EnvironmentObject>();
-
-            if (envObj != null)
+        {         
+            if (hit.collider.TryGetComponent<EnvironmentObject>(out var envObj))
             {
                 envObj.Interact(inventory);
             }
