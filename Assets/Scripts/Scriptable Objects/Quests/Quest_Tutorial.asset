@@ -26,4 +26,4 @@ MonoBehaviour:
   - objectiveID: clear_trash
     description: Clear the trash blocking your exit an artifact
     isCompleted: 0
-  status: 0
+  status: 1

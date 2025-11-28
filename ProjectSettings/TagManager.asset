@@ -41,10 +41,10 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Interactables
+  - name: Interactables (objects, trash, etc.)
     uniqueID: 3850995521
     locked: 0
-  - name: character
+  - name: characters
     uniqueID: 1094422449
     locked: 0
   m_RenderingLayers:
