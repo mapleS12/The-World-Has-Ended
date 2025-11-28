@@ -1,73 +1,58 @@
 using UnityEngine;
 using UnityEngine.UI;
-using Terresquall; // Joystick namespace
+using Terresquall;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 15f;
+    public float speed = 5f;
     public VirtualJoystick joystick;
     public float jumpForce = 10f;
     public HoldButton jumpHoldButton;
     public Button interactButton;
-
+    
     private Animator anim;
     private Rigidbody2D rb;
-    private PlayerInteraction playerInteraction; // Reference to your interaction script
+    private PlayerInteraction playerInteraction;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         playerInteraction = GetComponent<PlayerInteraction>();
-        interactButton.onClick.AddListener(Interact);
+        
+        if (interactButton != null)
+            interactButton.onClick.AddListener(Interact);
     }
 
     void Update()
     {
         if (joystick == null) return;
-
-        Vector2 movement = joystick.GetAxis();
-        transform.Translate(new Vector3(movement.x, 0, 0) * speed * Time.deltaTime);
-        anim.SetBool("isWalking", Mathf.Abs(movement.x) > 0.01f);
-
-        if (jumpHoldButton != null && jumpHoldButton.isPressed && movement.y < -0.5f)
-        {
-            Bend();
-        }
-
-        if (jumpHoldButton != null && jumpHoldButton.isPressed && Mathf.Abs(rb.linearVelocity.y) < 0.01f)
-        {
-            Jump();
-        }
         
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (playerInteraction != null)
-            {
-                playerInteraction.TryInteract();
-            }
-
-        }
+        Vector2 movement = joystick.GetAxis();
+        
+        rb.velocity = new Vector2(movement.x * speed, rb.velocity.y);
+        anim.SetBool("isWalking", movement.magnitude > 0.01f);
+        
+        if (jumpHoldButton != null && jumpHoldButton.isPressed && IsGrounded())
+            Jump();
     }
-
+    
+    bool IsGrounded()
+    {
+        return Mathf.Abs(rb.velocity.y) < 0.01f;
+    }
+    
     void Jump()
     {
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         anim.SetTrigger("Jump");
     }
-
-    void Bend()
-    {
-        anim.SetTrigger("Bend");
-    }
-
+    
     void Interact()
     {
-        anim.SetTrigger("Interact");          // Play interact animation
+        anim.SetTrigger("Interact");
         if (playerInteraction != null)
-        {
-            playerInteraction.TryInteract();  // Run your interaction code
-        }
+            playerInteraction.TryInteract();
         Debug.Log("Player interacted!");
     }
 }
