@@ -1,52 +1,87 @@
+/*
 using UnityEngine;
 using UnityEngine.UI;
-using Terresquall; // Joystick namespace
+using Terresquall; // Virtual Joystick namespace
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Movement Settings")]
     public float speed = 5f;
+
+    [Header("Joystick Input")]
     public VirtualJoystick joystick;
+
+    [Header("Jump Settings")]
     public float jumpForce = 10f;
     public HoldButton jumpHoldButton;
+
+    [Header("Interaction")]
     public Button interactButton;
 
     private Animator anim;
     private Rigidbody2D rb;
-    private PlayerInteraction playerInteraction; // Reference to your interaction script
+    private PlayerInteraction playerInteraction;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         playerInteraction = GetComponent<PlayerInteraction>();
-        interactButton.onClick.AddListener(Interact);
+
+        if (interactButton != null)
+            interactButton.onClick.AddListener(Interact);
     }
 
     void Update()
     {
-        if (joystick == null) return;
+        // --------------------------
+        // SAFETY CHECKS (Prevents NaN)
+        // --------------------------
 
+        // If joystick missing → do nothing.
+        if (joystick == null)
+        {
+            Debug.LogWarning("No joystick assigned to PlayerMovement.");
+            anim.SetBool("isWalking", false);
+            return;
+        }
+
+        // Get joystick axis
         Vector2 movement = joystick.GetAxis();
-        transform.Translate(new Vector3(movement.x, 0, 0) * speed * Time.deltaTime);
+
+        // Prevent NaN from joystick plugin errors
+        if (float.IsNaN(movement.x) || float.IsNaN(movement.y))
+        {
+            movement = Vector2.zero; // stop movement
+            Debug.LogWarning("Joystick returned NaN — forcing movement = zero.");
+        }
+
+        // --------------------------
+        // MOVEMENT
+        // --------------------------
+        Vector3 moveVector = new Vector3(movement.x, 0, 0);
+        transform.Translate(moveVector * speed * Time.deltaTime);
+
         anim.SetBool("isWalking", Mathf.Abs(movement.x) > 0.01f);
 
-        if (jumpHoldButton != null && jumpHoldButton.isPressed && movement.y < -0.5f)
+        // --------------------------
+        // BEND (downward joystick)
+        // --------------------------
+        if (jumpHoldButton != null &&
+            jumpHoldButton.isPressed &&
+            movement.y < -0.5f)
         {
             Bend();
         }
 
-        if (jumpHoldButton != null && jumpHoldButton.isPressed && Mathf.Abs(rb.linearVelocity.y) < 0.01f)
+        // --------------------------
+        // JUMP
+        // --------------------------
+        if (jumpHoldButton != null &&
+            jumpHoldButton.isPressed &&
+            Mathf.Abs(rb.linearVelocity.y) < 0.01f)
         {
             Jump();
-        }
-        
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (playerInteraction != null)
-            {
-                playerInteraction.TryInteract();
-            }
-
         }
     }
 
@@ -63,11 +98,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Interact()
     {
-        anim.SetTrigger("Interact");          // Play interact animation
+        anim.SetTrigger("Interact");
+
         if (playerInteraction != null)
-        {
-            playerInteraction.TryInteract();  // Run your interaction code
-        }
+            playerInteraction.TryInteract();
+
         Debug.Log("Player interacted!");
     }
 }
+*/

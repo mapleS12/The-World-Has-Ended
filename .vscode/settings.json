@@ -67,5 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "The-World-Has-Ended.slnx"
+    "dotnet.defaultSolution": "The-World-Has-Ended.slnx",
+    "dotnet.preferCSharpExtension": true
 }
