@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
         
         Vector2 movement = joystick.GetAxis();
         
-        rb.velocity = new Vector2(movement.x * speed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(movement.x * speed, rb.linearVelocity.y);
         anim.SetBool("isWalking", movement.magnitude > 0.01f);
         
         if (jumpHoldButton != null && jumpHoldButton.isPressed && IsGrounded())
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
     
     bool IsGrounded()
     {
-        return Mathf.Abs(rb.velocity.y) < 0.01f;
+        return Mathf.Abs(rb.linearVelocity.y) < 0.01f;
     }
     
     void Jump()
