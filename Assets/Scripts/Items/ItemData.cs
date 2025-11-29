@@ -11,9 +11,11 @@ public enum ItemType
 public class ItemData : ScriptableObject
 {
     public string itemID;
+
+    public bool isStackable;
     public string itemName;
     public string description;
-    public Sprite icon
+    public Sprite icon;
     public ItemType itemType;
     public int maxStackSize = 64;
 }
