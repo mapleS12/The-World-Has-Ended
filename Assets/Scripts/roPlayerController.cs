@@ -12,14 +12,14 @@ public class roPlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 input;
-    private Vector2 facing = Vector2.down;  // last non-zero direction
+    private Vector2 facing = Vector2.down; 
 
     private Animator anim;
     private SpriteRenderer sr;
 
     private PlayerInteraction interactionSystem;
 
-    // Animation state tracking
+    // animation
     private string currentState;
 
     void Awake()
@@ -61,23 +61,19 @@ public class roPlayerController : MonoBehaviour
         rb.linearVelocity = input * speed;
     }
 
-    // ----------------------------
-    // MOVEMENT SPEED (Run Logic)
-    // ----------------------------
+    //run or movement speed
     float GetMovementSpeed()
     {
         float mag = input.magnitude;
 
         // Run if user pulls joystick far enough
-        if (mag > 0.8f)
+        if (mag > 0.5f)
             return runSpeed;
 
         return walkSpeed;
     }
 
-    // ----------------------------
-    // INTERACT ANIMATION
-    // ----------------------------
+    // interact animation
     float interactTimer = 0f;
     public float interactDuration = 0.35f;
 
@@ -86,9 +82,7 @@ public class roPlayerController : MonoBehaviour
         interactTimer = interactDuration;
     }
 
-    // ----------------------------
-    // DIRECTION HANDLING
-    // ----------------------------
+    // directional movement
     void UpdateDirection()
     {
         if (input.sqrMagnitude > 0.001f)
@@ -103,9 +97,7 @@ public class roPlayerController : MonoBehaviour
             return "Side";
     }
 
-    // ----------------------------
-    // ANIMATION STATE MACHINE
-    // ----------------------------
+    //animation state
     void UpdateAnimation()
     {
         string dir = GetDirectionSuffix();
@@ -144,19 +136,17 @@ public class roPlayerController : MonoBehaviour
         anim.CrossFade(newState, 0.1f);
     }
 
-    // ----------------------------
-    // TAP DETECTION
-    // ----------------------------
+    // tap detection
     bool WasTapped()
     {
-        // Mobile touch
+        // mobile touch
         if (Touchscreen.current != null)
         {
             var touch = Touchscreen.current.primaryTouch;
             return touch.press.wasPressedThisFrame;
         }
 
-        // Editor mouse
+        // mouse click
         if (Mouse.current != null)
             return Mouse.current.leftButton.wasPressedThisFrame;
 
