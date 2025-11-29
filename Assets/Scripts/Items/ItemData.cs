@@ -13,5 +13,7 @@ public class ItemData : ScriptableObject
     public string itemID;
     public string itemName;
     public string description;
+    public Sprite icon
     public ItemType itemType;
+    public int maxStackSize = 64;
 }
