@@ -110,7 +110,7 @@ public class InGameMenu : MonoBehaviour
 
     public void ReturnToMainMenuPanel()
     {
-        // Load the new game scene which is the MainMenu panel (scene 0)
-        SceneManager.LoadScene(0);
+        // Load the new game scene which is the MainMenu panel (scene 1)
+        SceneManager.LoadScene(1);
     }
 }
