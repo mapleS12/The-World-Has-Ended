@@ -19,19 +19,16 @@ public class EnvironmentObject : MonoBehaviour
 
     public void Interact(Inventory inventory)
     {
-        // Complete quest objective if applicable
-        if (!string.IsNullOrEmpty(objectiveID))
-        {
-            FindFirstObjectByType<QuestManager>()?.CompleteObjective(objectiveID);
-        }
+        QuestManager qm = FindFirstObjectByType<QuestManager>();
 
-        // If trash requires broom or tool
+        // REQUIRE TOOL FIRST (IF needed)
         if (!string.IsNullOrEmpty(requiredItemID) && !inventory.HasItem(requiredItemID))
         {
             Debug.Log($"You need {requiredItemID} to interact with this.");
-            return;
+            return;  // EARLY EXIT � prevents bad objective completion
         }
 
+        // PROCEED BASED ON TYPE
         switch (objectType)
         {
             case EnvironmentObjectType.Collectible:
@@ -41,15 +38,29 @@ public class EnvironmentObject : MonoBehaviour
                     return;
                 }
 
-                // If successfully added, remove object from scene
                 if (inventory.AddItem(itemData))
                 {
+                    Debug.Log($"Collected: {itemData.itemName}");
+
+                    // quest update
+                    if (!string.IsNullOrEmpty(objectiveID) && qm != null)
+                    {
+                        qm.AddProgressToObjective(objectiveID, 1);
+                    }
+
                     Destroy(gameObject);
                 }
                 break;
 
             case EnvironmentObjectType.Cleanable:
                 Debug.Log("Trash cleaned!");
+
+                // quest update
+                if (!string.IsNullOrEmpty(objectiveID) && qm != null)
+                {
+                    qm.AddProgressToObjective(objectiveID, 1);
+                }
+
                 Destroy(gameObject);
                 break;
         }

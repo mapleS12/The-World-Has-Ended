@@ -22,6 +22,10 @@ public class QuestManager : MonoBehaviour
 
     public void StartQuest(QuestData quest)
     {
+        if (regionManager == null)
+            regionManager = FindFirstObjectByType<RegionManager>(); // tsting if i need this
+
+        // prevents starting a quest that's already active or completed
         if (quest.status == QuestStatus.Active || quest.status == QuestStatus.Completed)
         {
             Debug.Log("Quest already started or completed.");
@@ -46,6 +50,39 @@ public class QuestManager : MonoBehaviour
                     Debug.Log($"Objective Completed: {objective.description}");
 
                     CheckQuestCompletion(quest);
+
+                    RegionManager rm = FindFirstObjectByType<RegionManager>();
+                    if (rm != null)
+                        rm.OnRegionProgressUpdated?.Invoke(quest.regionID);
+
+                    return;
+                }
+            }
+        }
+    }
+
+    public void AddProgressToObjective(string objectiveID, int amount = 1)
+    {
+        foreach (QuestData quest in activeQuests)
+        {
+            foreach (QuestObjective objective in quest.objectives)
+            {
+                if (objective.objectiveID == objectiveID && !objective.isCompleted)
+                {
+                    objective.currentCount += amount;
+
+                    Debug.Log($"Objective progress: {objective.objectiveID} ({objective.currentCount}/{objective.requiredCount})");
+
+                    if (objective.currentCount >= objective.requiredCount)
+                    {
+                        objective.isCompleted = true;
+                        Debug.Log($"Objective Completed: {objective.description}");
+                        CheckQuestCompletion(quest);
+                    }
+                    RegionManager rm = FindFirstObjectByType<RegionManager>();
+                    if (rm != null)
+                        rm.OnRegionProgressUpdated?.Invoke(quest.regionID);
+
                     return;
                 }
             }

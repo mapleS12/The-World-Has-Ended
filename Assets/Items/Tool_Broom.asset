@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Tool_Broom
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemID: broom_tool
+  isStackable: 0
   itemName: Broom
   description: Use this tool to sweep up trash!
+  icon: {fileID: 0}
   itemType: 1
+  maxStackSize: 64
