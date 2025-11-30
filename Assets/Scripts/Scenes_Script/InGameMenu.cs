@@ -8,10 +8,22 @@ public class InGameMenu : MonoBehaviour
     public GameObject InGameMenuPanel;
     public GameObject ReturnToGamePanel;
     public GameObject SaveGamePanel;
-    //public GameObject ReturnToMainMenuPanel;
     public GameObject SettingsPanel;
+    public GameObject AccomplishmentsPanel;
+    public GameObject MapPanel;
+    public GameObject InventoryPanel;
+    public GameObject QuestsPanel;
+    public GameObject DimmingOverlay; //
     
     // --- Panel Transitions ---
+
+    // Call when menu button in active game is pressed.
+    public void OpenInGameMenu()
+    {
+        Time.timeScale = 0f; // Pauses game
+        InGameMenuPanel.SetActive(true);
+        DimmingOverlay.SetActive(true);
+    }
 
     public void OpenSettingsPanel()
     {
@@ -19,17 +31,79 @@ public class InGameMenu : MonoBehaviour
         SettingsPanel.SetActive(true);
     }
 
-    public void ReturnFromSettings()
+        public void ReturnFromSettings()
     {
         SettingsPanel.SetActive(false);
         InGameMenuPanel.SetActive(true);
     }
 
-    public void OpenRetirnToGamePanel()
+    public void OpenAccomplishmentsPanel()
     {
-        //SceneManager.LoadScene()
-        //InGameMenuPanel.SetActive(false);
-        //ReturnToGamePanel.SetActive(true);
+        InGameMenuPanel.SetActive(false);
+        AccomplishmentsPanel.SetActive(true);
+    }
+
+    public void ReturnFromAccomplishments()
+    {
+        AccomplishmentsPanel.SetActive(false);
+        InGameMenuPanel.SetActive(true);
+    }
+
+    public void OpenMapPanel()
+    {
+        InGameMenuPanel.SetActive(false);
+        MapPanel.SetActive(true);
+    }
+
+    public void ReturnFromMap()
+    {
+        MapPanel.SetActive(false);
+        InGameMenuPanel.SetActive(true);
+    }
+
+    public void OpenInventoryPanel()
+    {
+        InGameMenuPanel.SetActive(false);
+        InventoryPanel.SetActive(true);
+    }
+
+    public void ReturnFromInventory()
+    {
+        InventoryPanel.SetActive(false);
+        InGameMenuPanel.SetActive(true);
+    }
+
+    public void OpenQuestsPanel()
+    {
+        InGameMenuPanel.SetActive(false);
+        QuestsPanel.SetActive(true);
+    }
+
+    public void ReturnFromQuests()
+    {
+        QuestsPanel.SetActive(false);
+        InGameMenuPanel.SetActive(true);
+    }
+
+    // --- SPECIAL PANELS ---
+    
+    public void OpenReturnToGamePanel()
+    {
+        InGameMenuPanel.SetActive(false);
+        SettingsPanel.SetActive(false);
+        AccomplishmentsPanel.SetActive(false);
+        MapPanel.SetActive(false);
+        InventoryPanel.SetActive(false);
+        QuestsPanel.SetActive(false);
+        DimmingOverlay.SetActive(false);
+
+        Time.timeScale = 1f; // Resumes game    
+    }
+
+    public void ClickedSaveGamePanel()
+    {
+        // Implement save game logic here
+        Debug.Log("Game Saved!");
     }
 
     // Place SaveGamePanel code here when implemented  
