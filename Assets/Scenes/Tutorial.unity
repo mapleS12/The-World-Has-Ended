@@ -21162,9 +21162,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1601453053}
+  - component: {fileID: 1601453054}
   - component: {fileID: 1601453052}
   - component: {fileID: 1601453051}
-  - component: {fileID: 1601453054}
   m_Layer: 5
   m_Name: Companion
   m_TagString: Player
@@ -21261,8 +21261,8 @@ Transform:
   m_GameObject: {fileID: 1601453050}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 451.84, y: 269.19, z: 0}
-  m_LocalScale: {x: 8.2196, y: 7.4797, z: 1}
+  m_LocalPosition: {x: 450.64, y: 268.19, z: 0}
+  m_LocalScale: {x: 11.651569, y: 10.8913355, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
