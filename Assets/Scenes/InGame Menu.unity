@@ -703,7 +703,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 899, y: -432.48}
+  m_AnchoredPosition: {x: 906, y: -350}
   m_SizeDelta: {x: 80, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &171919274
@@ -1051,7 +1051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: -432.48}
+  m_AnchoredPosition: {x: -50, y: -479}
   m_SizeDelta: {x: 140, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &287843050
@@ -4772,9 +4772,9 @@ MonoBehaviour:
   ReturnToGamePanel: {fileID: 0}
   SaveGamePanel: {fileID: 0}
   SettingsPanel: {fileID: 0}
-  AccomplishmentsPanel: {fileID: 0}
+  AccomplishmentsPanel: {fileID: 1611813799}
   MapPanel: {fileID: 0}
-  InventoryPanel: {fileID: 1611813799}
+  InventoryPanel: {fileID: 0}
   QuestsPanel: {fileID: 0}
   DimmingOverlay: {fileID: 0}
 --- !u!1 &1619964927
@@ -4831,8 +4831,8 @@ MonoBehaviour:
   SaveGamePanel: {fileID: 0}
   SettingsPanel: {fileID: 0}
   AccomplishmentsPanel: {fileID: 0}
-  MapPanel: {fileID: 0}
-  InventoryPanel: {fileID: 1619964927}
+  MapPanel: {fileID: 1619964927}
+  InventoryPanel: {fileID: 0}
   QuestsPanel: {fileID: 0}
   DimmingOverlay: {fileID: 0}
 --- !u!1 &1628262268
@@ -4948,7 +4948,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -965, y: -432.48}
+  m_AnchoredPosition: {x: -951, y: -350}
   m_SizeDelta: {x: 80, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1648319793
@@ -5100,8 +5100,8 @@ MonoBehaviour:
   SettingsPanel: {fileID: 0}
   AccomplishmentsPanel: {fileID: 0}
   MapPanel: {fileID: 0}
-  InventoryPanel: {fileID: 1698531332}
-  QuestsPanel: {fileID: 0}
+  InventoryPanel: {fileID: 0}
+  QuestsPanel: {fileID: 1698531332}
   DimmingOverlay: {fileID: 0}
 --- !u!1 &1760501281
 GameObject:
@@ -5675,10 +5675,10 @@ MonoBehaviour:
   ReturnToGamePanel: {fileID: 0}
   SaveGamePanel: {fileID: 0}
   SettingsPanel: {fileID: 739109597}
-  AccomplishmentsPanel: {fileID: 0}
-  MapPanel: {fileID: 0}
+  AccomplishmentsPanel: {fileID: 1611813799}
+  MapPanel: {fileID: 1619964927}
   InventoryPanel: {fileID: 565796795}
-  QuestsPanel: {fileID: 0}
+  QuestsPanel: {fileID: 1698531332}
   DimmingOverlay: {fileID: 96764488}
 --- !u!1 &2071559769
 GameObject:
