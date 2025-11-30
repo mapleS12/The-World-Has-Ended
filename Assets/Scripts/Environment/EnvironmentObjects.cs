@@ -25,7 +25,7 @@ public class EnvironmentObject : MonoBehaviour
         if (!string.IsNullOrEmpty(requiredItemID) && !inventory.HasItem(requiredItemID))
         {
             Debug.Log($"You need {requiredItemID} to interact with this.");
-            return;  // EARLY EXIT — prevents bad objective completion
+            return;  // EARLY EXIT ï¿½ prevents bad objective completion
         }
 
         // PROCEED BASED ON TYPE
