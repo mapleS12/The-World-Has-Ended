@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class Settings : MonoBehaviour
 {
+    /*
     public Slider VolumeSlider;
     public Text VolumeText;
 
@@ -24,4 +25,5 @@ public class Settings : MonoBehaviour
         VolumeText.text = "Volume: " + Mathf.RoundToInt(value * 100) + "%";
         PlayerPrefs.SetFloat("MasterVolume", value);
     }
+    */
 }

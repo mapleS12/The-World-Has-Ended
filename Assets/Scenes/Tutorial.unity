@@ -2159,8 +2159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Inventory
   items: []
-  slotParent: {fileID: 0}
-  slotPrefab: {fileID: 6507238545349731175, guid: 7dc36ad089378a7428da8fd0c3ae7fe4, type: 3}
+  inventoryUI: {fileID: 0}
 --- !u!114 &697332898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22133,9 +22132,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 861327593}
-  - {fileID: 155764369}
   - {fileID: 292059266}
+  - {fileID: 155764369}
+  - {fileID: 861327593}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
