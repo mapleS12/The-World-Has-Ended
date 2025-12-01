@@ -619,6 +619,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6620829798916920087, guid: 05c1983751421544dbba095158a559cb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1841544171}
+    - target: {fileID: 6620829798916920087, guid: 05c1983751421544dbba095158a559cb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClickedSaveGamePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620829798916920087, guid: 05c1983751421544dbba095158a559cb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InGameMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7060822863093585916, guid: 05c1983751421544dbba095158a559cb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
