@@ -110,7 +110,11 @@ public class InGameMenu : MonoBehaviour
 
     public void ReturnToMainMenuPanel()
     {
+        Time.timeScale = 1f;
+        
         // Load the new game scene which is the MainMenu panel (scene 1)
         SceneManager.LoadScene(1);
+
+        Destroy(transform.root.gameObject); // Clean up InGameMenu object
     }
 }

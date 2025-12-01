@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 
-/*
 public class Settings : MonoBehaviour
 {
     public Slider VolumeSlider;
@@ -26,5 +25,3 @@ public class Settings : MonoBehaviour
         PlayerPrefs.SetFloat("MasterVolume", value);
     }
 }
-
-*/
