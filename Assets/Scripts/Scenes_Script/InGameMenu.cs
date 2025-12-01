@@ -102,8 +102,15 @@ public class InGameMenu : MonoBehaviour
 
     public void ClickedSaveGamePanel()
     {
-        // Implement save game logic here
-        Debug.Log("Game Saved!");
+        if (SaveManager.Instance != null)
+        {
+            SaveManager.Instance.SaveGame();
+            Debug.Log("Save initiated from InGameMenu.");
+        }
+        else
+        {
+            Debug.LogError("SaveManager instance not found.");
+        }
     }
 
     // Place SaveGamePanel code here when implemented  
