@@ -47,8 +47,14 @@ public class MainMenu : MonoBehaviour
 
     public void OpenLoadGamePanel()
     {
-        MainMenuPanel.SetActive(false);
-        LoadGamePanel.SetActive(true);
+        if (SaveManager.Instance != null)
+        {
+            SaveManager.Instance.LoadGame();
+        }
+        else
+        {
+            Debug.LogError("Cannot load game. SaveManager is not active.");
+        }
     }
 
     // --- SCENE LOADING ---

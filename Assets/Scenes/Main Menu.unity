@@ -1836,6 +1836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21847ff53160d114b9e45074d8022b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SettingsScreen
+  VolumeSlider: {fileID: 1760501283}
+  VolumeText: {fileID: 0}
 --- !u!1 &764390002
 GameObject:
   m_ObjectHideFlags: 0
@@ -4849,8 +4851,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2960, y: 1440}
+  m_AnchoredPosition: {x: 0.006958, y: -0.0025635}
+  m_SizeDelta: {x: 4326, y: 2071}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1842304316
 MonoBehaviour:

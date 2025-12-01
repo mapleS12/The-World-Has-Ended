@@ -2,27 +2,39 @@ using UnityEngine;
 
 public class CompanionAI : MonoBehaviour
 {
-    public Transform player;        // Drag the Player here
-    public float speed = 3f;        // How fast it moves
-    public float stopDistance = 1.5f; // How close it gets before stopping
+    public Transform player;
+    public float speed = 3f;
+    public float stopDistance = 2f;
+
+    [Header("Appearance")]
+    public float sizeMultiplier = 1.5f;   
+    private SpriteRenderer sr;
+
+    private void Start()
+    {
+        sr = GetComponent<SpriteRenderer>();
+
+        transform.localScale = Vector3.one * sizeMultiplier;
+    }
 
     private void Update()
     {
         if (player == null) return;
 
-        // 1. Calculate distance to player
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // 2. If too far away, move closer
         if (distance > stopDistance)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-            
-            // Optional: Flip sprite to face player
+            transform.position = Vector2.MoveTowards(
+                transform.position,
+                player.position,
+                speed * Time.deltaTime
+            );
+
             if (player.position.x > transform.position.x)
-                transform.localScale = new Vector3(1, 1, 1); // Face Right
+                sr.flipX = false;
             else
-                transform.localScale = new Vector3(-1, 1, 1); // Face Left
+                sr.flipX = true;
         }
     }
 }
