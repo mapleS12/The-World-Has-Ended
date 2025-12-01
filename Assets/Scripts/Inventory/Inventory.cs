@@ -62,4 +62,10 @@ public class Inventory : MonoBehaviour
             icon.enabled = true;
         }
     }
+
+    public void ToggleInventory()
+    {
+        bool isActive = slotParent.gameObject.activeSelf;
+        slotParent.gameObject.SetActive(!isActive);
+    }
 }
