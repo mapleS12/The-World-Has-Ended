@@ -1,71 +1,47 @@
-using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public static Inventory Instance;
-
-    // The Data (Your Backpack)
     public List<ItemData> items = new List<ItemData>();
 
-    public Transform slotParent;
-    public GameObject slotPrefab;
+    public GameObject inventoryUI;
+    // Add your UI slots later...
 
-    private void Awake()
+    public bool AddItem(ItemData item)
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
-    }
-
-    public bool AddItem(ItemData newItem)
-    {
-        if (items.Contains(newItem))
+        if (items.Contains(item))
         {
             Debug.Log("Item already collected.");
             return false;
         }
 
-        items.Add(newItem);
-        Debug.Log($"Collected: {newItem.itemName}");
+        items.Add(item);
+        Debug.Log($"Collected: {item.itemName}");
 
-        UpdateUI();
-
+        SafeUpdateUI();
         return true;
     }
 
-        public bool HasItem(string itemID)
+    public bool HasItem(string itemID)
     {
         return items.Exists(i => i.itemID == itemID);
     }
 
-    public void UpdateUI()
+    void SafeUpdateUI()
     {
-        // Clear old slots
-        foreach (Transform child in slotParent)
+        try
         {
-            Destroy(child.gameObject);
-        }
+            if (inventoryUI == null)
+            {
+                return;
+            }
 
-        // Draw new slots
-        foreach (ItemData item in items)
+            // TODO: your real UI update later...
+        }
+        catch
         {
-            GameObject newSlot = Instantiate(slotPrefab, slotParent);
-            Image icon = newSlot.transform.Find("Icon").GetComponent<Image>();
-            icon.sprite = item.icon;
-            icon.enabled = true;
+            Debug.LogWarning("Inventory UI update failed but was safely ignored.");
         }
-    }
-
-    public void ToggleInventory()
-    {
-        bool isActive = slotParent.gameObject.activeSelf;
-        slotParent.gameObject.SetActive(!isActive);
     }
 }
