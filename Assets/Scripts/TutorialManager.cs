@@ -16,7 +16,6 @@ public class TutorialManager : MonoBehaviour
     public GameObject mapButton;
     public DialogueUI dialogue;
 
-    private bool mapOpened = false;
     private bool exited = false;
 
     private void Start()
