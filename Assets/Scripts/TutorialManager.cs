@@ -116,13 +116,6 @@ public class TutorialManager : MonoBehaviour
         SceneLoader.Load("Level1");
     }
 
-
-    private void MapOpenedCallback()
-    {
-        mapOpened = true;
-        Debug.Log("Map opened!");
-    }
-
     private void ExitCallback()
     {
         exited = true;

@@ -85,7 +85,7 @@ public class DialogueUI : MonoBehaviour
     bool CheckAdvanceInput()
     {
         Vector2 screenPos;
-        bool pressed = false;
+        //bool pressed = false;
 
         if (Touchscreen.current != null)
         {
@@ -93,7 +93,7 @@ public class DialogueUI : MonoBehaviour
             if (t.press.wasPressedThisFrame)
             {
                 screenPos = t.position.ReadValue();
-                pressed = true;
+                //pressed = true;
 
                 if (IsOverNonDialogueUI(screenPos))
                     return false;       
@@ -107,7 +107,7 @@ public class DialogueUI : MonoBehaviour
             Mouse.current.leftButton.wasPressedThisFrame)
         {
             screenPos = Mouse.current.position.ReadValue();
-            pressed = true;
+           // pressed = true;
 
             if (IsOverNonDialogueUI(screenPos))
                 return false;
