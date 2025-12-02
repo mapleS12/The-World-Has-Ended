@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerInteraction : MonoBehaviour
 {
     private Inventory inventory;
+    public Camera interactionCamera; // testing alternative to Camera.main
 
     void Start()
     {
@@ -12,7 +13,13 @@ public class PlayerInteraction : MonoBehaviour
 
     public void TryInteract_NewInput()
     {
-        if (Camera.main == null) return;
+        //Debug.Log("Topmost UI: " + UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject());
+
+        if (Camera.main == null)
+        {
+            Debug.LogError("PlayerInteraction: No main camera found.");
+            return;
+        }
 
         Vector2 screenPos;
 
@@ -37,7 +44,8 @@ public class PlayerInteraction : MonoBehaviour
             return;
 
         // Convert screen to world
-        Vector3 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
+        Vector3 worldPos = interactionCamera.ScreenToWorldPoint(screenPos); // testing alternative to Camera.main, to solve bug.
+        //Vector3 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
         Vector2 world = new Vector2(worldPos.x, worldPos.y);
 
         // Raycast directly at tapped position

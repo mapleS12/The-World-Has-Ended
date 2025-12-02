@@ -7,6 +7,7 @@ public class QuestManager : MonoBehaviour
     void Awake()
     {
         // Prevent duplicates when switching scenes
+
         if (FindObjectsByType<QuestManager>(FindObjectsSortMode.None).Length > 1)
         {
             Destroy(gameObject);
@@ -26,11 +27,12 @@ public class QuestManager : MonoBehaviour
             regionManager = FindFirstObjectByType<RegionManager>(); // tsting if i need this
 
         // prevents starting a quest that's already active or completed
-        if (quest.status == QuestStatus.Active || quest.status == QuestStatus.Completed)
+        // ---COMMENT OUT FOR TESTING! It will not let you test otherwise since it doesnt want duplicates---
+        /*if (quest.status == QuestStatus.Active || quest.status == QuestStatus.Completed)
         {
             Debug.Log("Quest already started or completed.");
             return;
-        }
+        }*/
 
         quest.status = QuestStatus.Active;
         activeQuests.Add(quest);
