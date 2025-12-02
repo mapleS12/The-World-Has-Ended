@@ -54,7 +54,7 @@ public class TutorialManager : MonoBehaviour
 
         RemoveHighlight(broom);
         yield return dialogue.Say("You found the KALILI COORP DISPOSAL UNIT!");
-        yield return dialogue.Say("[Use this tool to sweep up trash!]");
+        yield return dialogue.Say("[ITEM DESCRIPTION : Use this tool to sweep up trash!]");
 
         // PICK UP EXPERIMENT LOG
         yield return dialogue.Say("It looks like there is a data log over there, lets check it out so we get more information.");
@@ -65,7 +65,7 @@ public class TutorialManager : MonoBehaviour
 
         RemoveHighlight(experimentLog);
         
-        yield return dialogue.Say("[Dusty research notes mentioning sister facilities across various regions.]");
+        yield return dialogue.Say("[ITEM DESCRIPTION : Dusty research notes mentioning sister facilities across various regions.]");
         yield return dialogue.Say("[Scattered coordinates and half-erases names suggesting a direction, but nothing you can reliably follow... yet.]");
         yield return dialogue.Say("We lets save this information for later and focus on getting out.");
 
@@ -128,7 +128,9 @@ public class TutorialManager : MonoBehaviour
         if (eo == null || eo.gameObject == null) return;
         var sr = eo.GetComponent<SpriteRenderer>();
         if (sr != null)
-            sr.color = new Color(1f, 1f, 0.5f);
+            sr.color = new Color(2f, 2f, 0.2f, 1f);
+
+
     }
 
     void RemoveHighlight(EnvironmentObject eo)
