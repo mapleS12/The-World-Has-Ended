@@ -1325,7 +1325,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &6985820073220245085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4484,8 +4484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Inventory
   items: []
-  slotParent: {fileID: 3750396499358935390}
-  slotPrefab: {fileID: 6507238545349731175, guid: 7dc36ad089378a7428da8fd0c3ae7fe4, type: 3}
+  inventoryUI: {fileID: 0}
 --- !u!1 &7225893003966151818
 GameObject:
   m_ObjectHideFlags: 0
