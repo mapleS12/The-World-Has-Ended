@@ -1,0 +1,48 @@
+[33ma354c8a8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: reset: moving to HEAD
+[33ma354c8a8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: pull: Merge made by the 'ort' strategy.
+[33m58f67df4[m HEAD@{2}: commit: i fixed the bugs and ish on my phone, things are running
+[33madcca770[m HEAD@{3}: commit: sizeing adapts with devices
+[33m131ec6d8[m HEAD@{4}: reset: moving to origin/master
+[33m8119f402[m HEAD@{5}: reset: moving to HEAD
+[33m8119f402[m HEAD@{6}: commit: tutoprial finalization
+[33ma6bb7873[m HEAD@{7}: pull: Fast-forward
+[33me4fa1add[m HEAD@{8}: reset: moving to HEAD
+[33me4fa1add[m HEAD@{9}: pull: Merge made by the 'ort' strategy.
+[33mf5c3d1af[m HEAD@{10}: commit: add
+[33m2c1c190a[m HEAD@{11}: commit: fixed companion's size and movement
+[33m281361c6[m HEAD@{12}: pull: Fast-forward
+[33mfa996c67[m HEAD@{13}: reset: moving to origin/master
+[33mb690e132[m HEAD@{14}: commit: housekeeping
+[33m38b52bfc[m HEAD@{15}: commit: animations added to character
+[33m8cbe3274[m HEAD@{16}: reset: moving to origin/master
+[33m9348e665[m HEAD@{17}: commit: created new code for character movement and connected with joystick, created no enter boundry for character, and added camera movement
+[33mea6c4d1c[m HEAD@{18}: pull: Merge made by the 'ort' strategy.
+[33m128ed24f[m HEAD@{19}: commit: ill km
+[33me3dd71a3[m HEAD@{20}: pull: Merge made by the 'ort' strategy.
+[33m65e975ad[m HEAD@{21}: commit (merge): Resolve merge conflict by using remote version
+[33mbdfb71b7[m HEAD@{22}: commit: update
+[33me4b86b86[m HEAD@{23}: pull: Fast-forward
+[33m10f2214c[m HEAD@{24}: pull: Merge made by the 'ort' strategy.
+[33m924b8f13[m HEAD@{25}: commit (merge): full compelted cutsceen
+[33m280b28ca[m HEAD@{26}: commit: full compelted cutsceen
+[33mdba99f37[m HEAD@{27}: pull: Fast-forward
+[33ma9184c06[m HEAD@{28}: pull: Fast-forward
+[33mad0e77fe[m HEAD@{29}: pull: Fast-forward
+[33m9bf5034d[m HEAD@{30}: pull: Fast-forward
+[33m659ebdcc[m HEAD@{31}: pull: Fast-forward
+[33mfed38d15[m HEAD@{32}: commit: ahh
+[33m82017c17[m HEAD@{33}: pull: Fast-forward
+[33me3afc4d2[m HEAD@{34}: pull: Merge made by the 'ort' strategy.
+[33m3e1751e5[m HEAD@{35}: commit: cutscene and player movement
+[33m4a19591b[m HEAD@{36}: pull: Fast-forward
+[33m29df9964[m HEAD@{37}: commit: map updates
+[33m19d021a1[m HEAD@{38}: pull: Fast-forward
+[33mc3879586[m HEAD@{39}: pull: Fast-forward
+[33m12d08c73[m HEAD@{40}: pull: Fast-forward
+[33mb0245bcb[m HEAD@{41}: commit: map updates
+[33m78bcc354[m HEAD@{42}: commit: tutorial floorplan plus new tileset
+[33m0eb1d859[m HEAD@{43}: commit: Your message
+[33mbcceeaba[m HEAD@{44}: pull: Fast-forward
+[33mf2c47b72[m HEAD@{45}: commit: base game with background tiles created
+[33m7ffea219[m HEAD@{46}: commit: readme
+[33m609cfd85[m HEAD@{47}: commit (initial): Initial Unity project setup with proper .gitignore
