@@ -59,7 +59,7 @@ public class roPlayerController : MonoBehaviour
     void FixedUpdate()
     {
         float speed = GetMovementSpeed();
-        rb.linearVelocity = input * speed;
+        rb.linearVelocity = input * speed *1.3f;
     }
 
     //run or movement speed

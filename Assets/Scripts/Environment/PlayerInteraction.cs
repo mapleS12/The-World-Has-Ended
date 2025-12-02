@@ -49,14 +49,25 @@ public class PlayerInteraction : MonoBehaviour
         Vector2 world = new Vector2(worldPos.x, worldPos.y);
 
         // Raycast directly at tapped position
-        RaycastHit2D hit = Physics2D.Raycast(world, Vector2.zero);
+        // Raycast directly at tapped position
+Debug.Log("Trying to raycast at world position: " + world);
 
-        if (hit.collider != null)
-        {         
-            if (hit.collider.TryGetComponent<EnvironmentObject>(out var envObj))
-            {
-                envObj.Interact(inventory);
-            }
-        }
+RaycastHit2D hit = Physics2D.Raycast(world, Vector2.zero);
+
+Debug.Log("Raycast hit: " + (hit.collider ? hit.collider.name : "NULL"));
+
+if (hit.collider != null)
+{
+    if (hit.collider.TryGetComponent<EnvironmentObject>(out var envObj))
+    {
+        Debug.Log("INTERACTING WITH: " + envObj.name);
+        envObj.Interact(inventory);
+    }
+}
+else
+{
+    Debug.Log("NO COLLIDER FOUND AT TAP");
+}
+
     }
 }

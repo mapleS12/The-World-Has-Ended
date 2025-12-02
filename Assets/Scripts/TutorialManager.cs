@@ -37,7 +37,7 @@ public class TutorialManager : MonoBehaviour
         Vector3 startPos = player.transform.position;
 
         // Wait until position changes
-        while (Vector3.Distance(startPos, player.transform.position) < 0.8f)
+        while (Vector3.Distance(startPos, player.transform.position) < 1.1f)
             yield return null;
 
         yield return dialogue.Say("Looks like your muscles still work.");
@@ -67,7 +67,9 @@ public class TutorialManager : MonoBehaviour
         
         yield return dialogue.Say("[ITEM DESCRIPTION : Dusty research notes mentioning sister facilities across various regions.]");
         yield return dialogue.Say("[Scattered coordinates and half-erases names suggesting a direction, but nothing you can reliably follow... yet.]");
-        yield return dialogue.Say("We lets save this information for later and focus on getting out.");
+        yield return dialogue.Say("Lets save this information for later, I converted the data into a map for you.");
+        mapButton.SetActive(true);
+        yield return dialogue.Say("Go to the MENU button on the top right and press MAP.");
 
         // CLEAN TRASH
         yield return dialogue.Say("Lets use the KALILI COORP DISPOSAL UNIT to clean this up.");
@@ -128,7 +130,7 @@ public class TutorialManager : MonoBehaviour
         if (eo == null || eo.gameObject == null) return;
         var sr = eo.GetComponent<SpriteRenderer>();
         if (sr != null)
-            sr.color = new Color(2f, 2f, 0.2f, 1f);
+            sr.color = new Color(1f, 0.1f, 0.1f, 1f);
 
 
     }

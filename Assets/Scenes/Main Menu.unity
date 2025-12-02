@@ -5160,6 +5160,7 @@ MonoBehaviour:
   AccomplishmentsPanel: {fileID: 565796795}
   NewGamePanel: {fileID: 2042217727}
   LoadGamePanel: {fileID: 1651834388}
+  mainMenuCanvas: {fileID: 1113938042}
 --- !u!1 &2037510793
 GameObject:
   m_ObjectHideFlags: 0

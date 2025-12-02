@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [Header("Panels")]
     public GameObject MainMenuPanel;
     public GameObject SettingsPanel;
     public GameObject AccomplishmentsPanel;
     public GameObject NewGamePanel;
     public GameObject LoadGamePanel;
-    
-    // --- Panel Transitions ---
 
+    [Header("Canvas Root (VERY IMPORTANT)")]
+    public GameObject mainMenuCanvas; // ← assign your MAIN MENU CANVAS here
+
+    // --- Panel Transitions ---
     public void OpenSettingsPanel()
     {
         MainMenuPanel.SetActive(false);
@@ -24,6 +27,7 @@ public class MainMenu : MonoBehaviour
         SettingsPanel.SetActive(false);
         MainMenuPanel.SetActive(true);
     }
+
     public void OpenAccomplishmentsPanel()
     {
         MainMenuPanel.SetActive(false);
@@ -38,11 +42,20 @@ public class MainMenu : MonoBehaviour
 
     public void OpenNewGamePanel()
     {
-        // Load the new game scene which is the Tutorial panel (scene 0)
-        SceneManager.LoadScene("Tutorial");
-        
-        //MainMenuPanel.SetActive(false);
-        //NewGamePanel.SetActive(true);
+        // 1. SAFELY disable menu canvas
+        if (mainMenuCanvas != null)
+        {
+            mainMenuCanvas.SetActive(false);
+            // or Destroy(mainMenuCanvas);  // if you NEVER need the menu again
+        }
+        else
+        {
+            Debug.LogWarning("mainMenuCanvas is NOT assigned! Raycasts will block the tutorial input.");
+        }
+
+        // 2. LOAD GAME
+        SceneManager.LoadScene("Intro Cutscene");
+
     }
 
     public void OpenLoadGamePanel()
@@ -58,10 +71,9 @@ public class MainMenu : MonoBehaviour
     }
 
     // --- SCENE LOADING ---
-
     public void LoadSavedGame(string savedGameSceneName)
     {
-        SceneManager.LoadScene(savedGameSceneName); // E.g., SceneManager.LoadScene("Level1")
+        SceneManager.LoadScene(savedGameSceneName);
     }
 
     public void ExitGame()

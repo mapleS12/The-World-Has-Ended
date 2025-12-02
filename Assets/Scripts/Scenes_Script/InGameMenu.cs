@@ -122,6 +122,6 @@ public class InGameMenu : MonoBehaviour
         Destroy(transform.root.gameObject); // Clean up InGameMenu object
 
         // Load the new game scene which is the MainMenu panel (scene 1)
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Main Menu");
     }
 }
