@@ -36,7 +36,7 @@ public class PlayerInteraction : MonoBehaviour
         if (float.IsInfinity(screenPos.x) || float.IsInfinity(screenPos.y))
             return;
 
-        // Convert screen → world
+        // Convert screen to world
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
         Vector2 world = new Vector2(worldPos.x, worldPos.y);
 

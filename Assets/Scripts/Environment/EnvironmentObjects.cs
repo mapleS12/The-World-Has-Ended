@@ -21,11 +21,11 @@ public class EnvironmentObject : MonoBehaviour
     {
         QuestManager qm = FindFirstObjectByType<QuestManager>();
 
-        // REQUIRE TOOL FIRST (IF needed)
+        // REQUIRE TOOL FIRST (If needed)
         if (!string.IsNullOrEmpty(requiredItemID) && !inventory.HasItem(requiredItemID))
         {
             Debug.Log($"You need {requiredItemID} to interact with this.");
-            return;  // EARLY EXIT � prevents bad objective completion
+            return;  // EARLY EXIT prevents bad objective completion
         }
 
         // PROCEED BASED ON TYPE

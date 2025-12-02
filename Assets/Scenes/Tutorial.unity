@@ -2247,7 +2247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1211304509493111933, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: objectiveID
-      value: 
+      value: pickup_broom
       objectReference: {fileID: 0}
     - target: {fileID: 1821627336122030438, guid: ed7fbe4388459a04b8f23d10f8b5b69b, type: 3}
       propertyPath: m_LocalScale.x

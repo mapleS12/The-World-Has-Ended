@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class HoldButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
@@ -14,3 +14,4 @@ public class HoldButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         isPressed = false;
     }
 }
+*/
