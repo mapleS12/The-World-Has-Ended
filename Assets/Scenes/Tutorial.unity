@@ -1139,6 +1139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfc560e6592ea234a956e892d807b883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
+  interactionCamera: {fileID: 1757883304}
 --- !u!4 &474951213
 Transform:
   m_ObjectHideFlags: 0
@@ -2734,7 +2735,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Inventory
   items: []
-  inventoryUI: {fileID: 0}
 --- !u!114 &697332898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2747,6 +2747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfc560e6592ea234a956e892d807b883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
+  interactionCamera: {fileID: 0}
 --- !u!114 &697332899
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerInteraction : MonoBehaviour
 {
     private Inventory inventory;
-    public Camera interactionCamera; // testing alternative to Camera.main
+    //public Camera interactionCamera; // testing alternative to Camera.main
 
     void Start()
     {
@@ -44,8 +44,8 @@ public class PlayerInteraction : MonoBehaviour
             return;
 
         // Convert screen to world
-        Vector3 worldPos = interactionCamera.ScreenToWorldPoint(screenPos); // testing alternative to Camera.main, to solve bug.
-        //Vector3 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
+        //Vector3 worldPos = interactionCamera.ScreenToWorldPoint(screenPos); // testing alternative to Camera.main, to solve bug.
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
         Vector2 world = new Vector2(worldPos.x, worldPos.y);
 
         // Raycast directly at tapped position
